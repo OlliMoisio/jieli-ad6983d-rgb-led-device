@@ -23,3 +23,7 @@ Link to compatible JL SDK: [fw-AC63_BT_SDK](https://github.com/Jieli-Tech/fw-AC6
 1. [Connecting a JL programmer to the device](connecting-programmer-to-device.md)
 2. SDK: ... TBD
 
+## Useful reading and links
+
+- [kagaimiq/jielie](https://github.com/kagaimiq/jielie)
+- [kagaimiq/jl-uboot-tool](https://github.com/kagaimiq/jl-uboot-tool)

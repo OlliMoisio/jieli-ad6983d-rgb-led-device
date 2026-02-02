@@ -6,7 +6,7 @@ Link to the USB programmer: [JL USB Updater tool v4](https://www.aliexpress.com/
 
 - The programmer requires a USB type-A male-to-male cable!
 
-There are also some references that the device can be programmed by inputting a certain kind of sequence through the USB data ports:
+There are also some references that JL devices can be programmed [without a programmer](https://github.com/kagaimiq/jielie/blob/main/isp/usb/usb-key.md)
 
 ## 1. Remove the built-in battery from the device by cutting the wires leading to it, or desolder them from the board.
 
