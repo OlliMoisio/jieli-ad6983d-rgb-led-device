@@ -13,7 +13,7 @@
 
 ## Authentication key generation
 
-Requirement: Within the VM, device manager now shows the presense of a `BR34 UBOOT` disk drive
+- Requirement: Within the VM, device manager now shows the presense of a `BR34 UBOOT` disk drive
 
 Programming the target board requires an authentication key. The file is not provided in this repo, but can be generated with the following steps:
 
@@ -28,8 +28,8 @@ Programming the target board requires an authentication key. The file is not pro
 
 ## SDK compilation
 
-Requirement: Within the VM, device manager now shows the presense of a `BR34 UBOOT` disk drive
-Requirement: Authentication key is created in previous step
+- Requirement: Within the VM, device manager now shows the presense of a `BR34 UBOOT` disk drive
+- Requirement: Authentication key is created in previous step
 
 1. Open file `C:\sdk\apps\spp_and_le\board\br34\AC638N_spp_and_le.cbp` with Codeblocks
 2. Build the project by selecting Build -> Build
@@ -43,8 +43,8 @@ If successful, towards the end the build log should say `Download completed`
 1. Plugin the programmed device to your PC using a USB cable, WITHOUT the JL tool in between
 2. Check device manager, it should display a new `USB Input Device` under the `Human Interface Devices` category, with hardware ID's:
 
-`VENDOR_ID = 0x4C4F `
-`PRODUCT_ID = 0x494C`
+- `VENDOR_ID = 0x4C4F `
+- `PRODUCT_ID = 0x494C`
 
 3. Using pip, install python package hidapi to your host PC: `pip install hidapi`
-4. Run the provided `usb-led.py` script in the host PC. Some LED's should come alive, with some of them blinking once a second
+4. Run the provided `bin\usb-led.py` script in the host PC. Some LED's should come alive, with some of them blinking once a second

@@ -34,4 +34,4 @@ On the device side, you can use the small debug ports, or connect to the buttons
 
 - If the green LED shuts off and the red LED remains solid, the physical connection is made
 
-At this point, the host PC device manager should show the presense of a "BR34 UBOOT" disk drive. When this is done, proceed to [sdk setup](sdk.md).
+At this point, the host PC device manager should show the presense of a "BR34 UBOOT" disk drive. When this is done, proceed to [sdk setup](sdk-setup.md).
