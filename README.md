@@ -1,4 +1,8 @@
-# Reprogramming the JL / Jieli LED RGB device
+# Reprogramming a JL / Jieli based LED RGB device
+
+![image of LED RGB device](images/device.jpg)
+
+[DEMO: images/demo.mp4](images/demo.mp4)
 
 Available at least from [Clas Ohlson](https://www.clasohlson.com/fi/LED-lista,-varitehosteita,-ladattava-18-cm/p/36-9075)
 
@@ -21,7 +25,7 @@ Link to compatible JL SDK: [fw-AC63_BT_SDK](https://github.com/Jieli-Tech/fw-AC6
 ## Instructions
 
 1. [Connecting a JL programmer to the device](connecting-programmer-to-device.md)
-2. SDK: ... TBD
+2. [Setting up the compilation environment](sdk-setup.md)
 
 ## Useful reading and links
 

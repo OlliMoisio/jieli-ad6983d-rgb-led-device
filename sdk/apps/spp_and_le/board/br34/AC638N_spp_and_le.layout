@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Release" />
+	<File name="board_config.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="147" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\examples\dongle\battery_charge.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\common\device\usb\host\hid.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1002" topLine="28" />
+		</Cursor>
+	</File>
+	<File name="..\..\examples\dongle\led.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3436" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\include_lib\driver\device\usb\device\usb_stack.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3609" topLine="110" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\common\device\usb\usb_std_class_def.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1133" topLine="24" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\common\third_party_profile\common\custom_cfg.c" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="49" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\common\bt_common\bt_test_api.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2770" topLine="110" />
+		</Cursor>
+	</File>
+	<File name="board_ac638n_demo.c" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2502" topLine="36" />
+		</Cursor>
+	</File>
+	<File name="..\..\app_main.c" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3193" topLine="82" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\common\device\usb\device\task_pc.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5886" topLine="216" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\common\device\usb\device\custom_hid.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2369" topLine="59" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\cpu\br34\spi.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="12164" topLine="435" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\common\audio\sine_make.c" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1109" topLine="48" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\common\device\key\iokey.c" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3155" topLine="105" />
+		</Cursor>
+	</File>
+	<File name="..\..\include\app_config.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="14941" topLine="13" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\common\device\usb\device\msd_upgrade.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="942" topLine="20" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\common\device\usb\device\hid.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4937" topLine="134" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\common\device\usb\device\cdc.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6282" topLine="133" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\include_lib\driver\device\usb\device\custom_hid.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="93" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\examples\dongle\led.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="968" topLine="11" />
+		</Cursor>
+	</File>
+	<File name="..\..\examples\dongle\usb_hid_devices.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3487" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\common\device\norflash\norflash.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1923" topLine="39" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\cpu\br34\uart_dev.c" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="597" topLine="29" />
+		</Cursor>
+	</File>
+	<File name="board_ac638n_demo_cfg.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1198" topLine="21" />
+		</Cursor>
+	</File>
+	<File name="..\..\examples\dongle\app_dongle.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="346" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\common\third_party_profile\hilink_protocol\mbedtls_protocol\des.c" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="17685" topLine="431" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\common\device\usb\usb_common_def.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="933" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\examples\dongle\battery_charge.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="613" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="board_ac6385a_demo_cfg.h" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1248" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="board_ac6381a_demo_cfg.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1104" topLine="22" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\common\device\usb\device\descriptor.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1670" topLine="32" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

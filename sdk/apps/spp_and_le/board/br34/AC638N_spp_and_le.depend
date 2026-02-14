@@ -1,0 +1,4772 @@
+# depslib dependency file v1.0
+1769531072 source:c:\sdk\cpu\br34\adc_api.c
+	"typedef.h"
+	"asm/clock.h"
+	"asm/adc_api.h"
+	"timer.h"
+	"init.h"
+	"asm/efuse.h"
+	"irq.h"
+	"asm/power/p33.h"
+	"asm/power/p11.h"
+	"asm/power_interface.h"
+	"jiffies.h"
+	"app_config.h"
+
+1769531082 c:\sdk\include_lib\system\generic\typedef.h
+	"asm/cpu.h"
+	"generic/errno-base.h"
+	"string.h"
+	"strings.h"
+	"system/malloc.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\cpu.h
+	"br34.h"
+	"csfr.h"
+	"cache.h"
+	"asm/irq.h"
+	"generic/printf.h"
+	"system/generic/log.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\br34.h
+	"io_omap.h"
+	"io_imap.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\io_omap.h
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\io_imap.h
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\csfr.h
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\cache.h
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\irq.h
+	"asm/hwi.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\hwi.h
+
+1769531081 c:\sdk\include_lib\system\generic\printf.h
+	<stdarg.h>
+	"typedef.h"
+
+1769531081 c:\sdk\include_lib\system\generic\log.h
+	"system/generic/printf.h"
+
+1769531081 c:\sdk\include_lib\system\generic\errno-base.h
+
+1769531082 c:\sdk\include_lib\system\malloc.h
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\clock.h
+	"typedef.h"
+	"clock_hw.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\clock_hw.h
+	"typedef.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\adc_api.h
+
+1769531082 c:\sdk\include_lib\system\timer.h
+	"typedef.h"
+	"generic/list.h"
+
+1769531081 c:\sdk\include_lib\system\generic\list.h
+
+1769531082 c:\sdk\include_lib\system\init.h
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\efuse.h
+
+1769531081 c:\sdk\include_lib\system\generic\irq.h
+	"asm/irq.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\power\p33.h
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\power\p11.h
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\power_interface.h
+	"generic/typedef.h"
+
+1769531081 c:\sdk\include_lib\system\generic\jiffies.h
+
+1770562850 c:\sdk\apps\spp_and_le\include\app_config.h
+	"board_config.h"
+	"usb_common_def.h"
+	"btcontroller_mode.h"
+	"user_cfg_id.h"
+
+1770556812 c:\sdk\apps\spp_and_le\board\br34\board_config.h
+	"board_ac638n_demo_cfg.h"
+
+1770387970 c:\sdk\apps\spp_and_le\board\br34\board_ac638n_demo_cfg.h
+	"board_ac638n_demo_global_build_cfg.h"
+	"usb_std_class_def.h"
+
+1769531055 c:\sdk\apps\spp_and_le\board\br34\board_ac638n_demo_global_build_cfg.h
+
+1770450707 c:\sdk\apps\common\device\usb\usb_std_class_def.h
+
+1770379457 c:\sdk\apps\spp_and_le\board\br34\board_ac6381a_demo_cfg.h
+	"board_ac6381a_demo_global_build_cfg.h"
+	"usb_std_class_def.h"
+
+1769531055 c:\sdk\apps\spp_and_le\board\br34\board_ac6381a_demo_global_build_cfg.h
+
+1770387934 c:\sdk\apps\spp_and_le\board\br34\board_ac6385a_demo_cfg.h
+	"board_ac6385a_demo_global_build_cfg.h"
+	"usb_std_class_def.h"
+
+1769531055 c:\sdk\apps\spp_and_le\board\br34\board_ac6385a_demo_global_build_cfg.h
+
+1769531055 c:\sdk\apps\spp_and_le\board\br34\board_ac638n_fmy_cfg.h
+	"board_ac638n_fmy_global_build_cfg.h"
+	"usb_std_class_def.h"
+
+1769531055 c:\sdk\apps\spp_and_le\board\br34\board_ac638n_fmy_global_build_cfg.h
+
+1770371075 c:\sdk\apps\common\device\usb\usb_common_def.h
+
+1769531077 c:\sdk\include_lib\btctrler\btcontroller_mode.h
+
+1769531056 c:\sdk\apps\spp_and_le\include\user_cfg_id.h
+
+1769531072 source:c:\sdk\cpu\br34\app_audio.c
+	"system/includes.h"
+	"media/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"app_main.h"
+	"user_cfg.h"
+	"audio_config.h"
+	"audio_digital_vol.h"
+	"audio_dac_digital_volume.h"
+	"audio_anc.h"
+	"update.h"
+	"debug.h"
+
+1769531082 c:\sdk\include_lib\system\includes.h
+	"init.h"
+	"event.h"
+	"malloc.h"
+	"spinlock.h"
+	"task.h"
+	"timer.h"
+	"wait.h"
+	"app_core.h"
+	"app_msg.h"
+	"database.h"
+	"fs/fs.h"
+	"power_manage.h"
+	"syscfg_id.h"
+	"bank_switch.h"
+	"generic/includes.h"
+	"device/includes.h"
+	"asm/includes.h"
+	"device/sdio_host_init.h"
+
+1769531081 c:\sdk\include_lib\system\event.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/rect.h"
+
+1769531082 c:\sdk\include_lib\system\generic\rect.h
+	"typedef.h"
+
+1769531082 c:\sdk\include_lib\system\spinlock.h
+	"typedef.h"
+	"cpu.h"
+	"irq.h"
+
+1769531081 c:\sdk\include_lib\system\generic\cpu.h
+	<asm/cpu.h>
+
+1769531082 c:\sdk\include_lib\system\task.h
+	"os/os_api.h"
+
+1769531082 c:\sdk\include_lib\system\os\os_api.h
+	"generic/typedef.h"
+	"os/os_cpu.h"
+	"os/os_error.h"
+	"os/os_type.h"
+
+1769531082 c:\sdk\include_lib\system\os\os_cpu.h
+	"asm/cpu.h"
+	"jiffies.h"
+
+1769531082 c:\sdk\include_lib\system\os\os_error.h
+
+1769531082 c:\sdk\include_lib\system\os\os_type.h
+	<os/ucos_ii.h>
+	"FreeRTOS/FreeRTOS.h"
+	"FreeRTOS/semphr.h"
+	"FreeRTOS/task.h"
+
+1769531082 c:\sdk\include_lib\system\os\ucos_ii.h
+	"generic/typedef.h"
+	"os/os_cpu.h"
+	"os/os_cfg.h"
+	"os/os_api.h"
+
+1769531082 c:\sdk\include_lib\system\os\os_cfg.h
+	"os/os_cpu.h"
+
+1769531082 c:\sdk\include_lib\system\os\freertos\freertos.h
+	"FreeRTOSConfig.h"
+	"projdefs.h"
+	"portable.h"
+	<reent.h>
+
+1769531082 c:\sdk\include_lib\system\os\freertos\freertosconfig.h
+	"printf.h"
+	"pi32v2/portmacro.h"
+	"pi32_lto/portmacro.h"
+	"q32s/portmacro.h"
+
+1769531082 c:\sdk\include_lib\system\os\freertos\pi32v2\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1769531082 c:\sdk\include_lib\system\os\freertos\pi32_lto\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1769531082 c:\sdk\include_lib\system\os\freertos\q32s\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1769531082 c:\sdk\include_lib\system\os\freertos\projdefs.h
+
+1769531082 c:\sdk\include_lib\system\os\freertos\portable.h
+	"deprecated_definitions.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1769531082 c:\sdk\include_lib\system\os\freertos\deprecated_definitions.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC18F/portmacro.h"
+	"../../Source/portable/MPLAB/PIC32MX/portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+
+1769531082 c:\sdk\include_lib\system\os\freertos\mpu_wrappers.h
+
+1769531082 c:\sdk\include_lib\system\os\freertos\semphr.h
+	"queue.h"
+
+1769531082 c:\sdk\include_lib\system\os\freertos\queue.h
+
+1769531082 c:\sdk\include_lib\system\os\freertos\task.h
+	"list.h"
+
+1769531082 c:\sdk\include_lib\system\os\freertos\list.h
+
+1769531082 c:\sdk\include_lib\system\wait.h
+
+1769531081 c:\sdk\include_lib\system\app_core.h
+	"typedef.h"
+	"generic/list.h"
+	"system/event.h"
+
+1769531081 c:\sdk\include_lib\system\app_msg.h
+
+1769531081 c:\sdk\include_lib\system\database.h
+	"typedef.h"
+
+1769531081 c:\sdk\include_lib\system\fs\fs.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/ioctl.h"
+	"generic/atomic.h"
+	"system/task.h"
+	"system/malloc.h"
+	"system/sys_time.h"
+	"stdarg.h"
+	"fs_file_name.h"
+	"sdfile.h"
+
+1769531081 c:\sdk\include_lib\system\generic\ioctl.h
+
+1769531081 c:\sdk\include_lib\system\generic\atomic.h
+	"cpu.h"
+	"irq.h"
+
+1769531082 c:\sdk\include_lib\system\sys_time.h
+	"typedef.h"
+
+1769531081 c:\sdk\include_lib\system\fs\fs_file_name.h
+	"generic/typedef.h"
+
+1769531081 c:\sdk\include_lib\system\fs\sdfile.h
+	"typedef.h"
+
+1769531082 c:\sdk\include_lib\system\power_manage.h
+	"generic/typedef.h"
+
+1769531082 c:\sdk\include_lib\system\syscfg_id.h
+	"typedef.h"
+
+1769531081 c:\sdk\include_lib\system\bank_switch.h
+
+1769531081 c:\sdk\include_lib\system\generic\includes.h
+	"errno-base.h"
+	"typedef.h"
+	"ascii.h"
+	"atomic.h"
+	"ioctl.h"
+	"cpu.h"
+	"gpio.h"
+	"irq.h"
+	"jiffies.h"
+	"list.h"
+	"printf.h"
+	"rect.h"
+	"version.h"
+	"lbuf.h"
+	"lbuf_lite.h"
+	"circular_buf.h"
+	"index.h"
+	"debug_lite.h"
+
+1769531081 c:\sdk\include_lib\system\generic\ascii.h
+	"typedef.h"
+
+1769531081 c:\sdk\include_lib\system\generic\gpio.h
+	"asm/gpio.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\gpio.h
+	"typedef.h"
+
+1769531082 c:\sdk\include_lib\system\generic\version.h
+	"typedef.h"
+
+1769531081 c:\sdk\include_lib\system\generic\lbuf.h
+	"typedef.h"
+	"list.h"
+	"system/spinlock.h"
+
+1769531081 c:\sdk\include_lib\system\generic\lbuf_lite.h
+	"typedef.h"
+	"list.h"
+	"system/spinlock.h"
+
+1769531081 c:\sdk\include_lib\system\generic\circular_buf.h
+	"typedef.h"
+	"system/spinlock.h"
+
+1769531081 c:\sdk\include_lib\system\generic\index.h
+	"typedef.h"
+
+1769531081 c:\sdk\include_lib\system\generic\debug_lite.h
+
+1769531081 c:\sdk\include_lib\system\device\includes.h
+	"device.h"
+	"ioctl_cmds.h"
+	"key_driver.h"
+	"iokey.h"
+	"irkey.h"
+	"adkey.h"
+	"slidekey.h"
+	"touch_key.h"
+	"rdec_key.h"
+
+1769531081 c:\sdk\include_lib\system\device\device.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/atomic.h"
+	"device/ioctl_cmds.h"
+
+1769531081 c:\sdk\include_lib\system\device\ioctl_cmds.h
+
+1769531081 c:\sdk\include_lib\system\device\key_driver.h
+	"typedef.h"
+
+1769531081 c:\sdk\include_lib\system\device\iokey.h
+	"typedef.h"
+	"device/device.h"
+
+1769531081 c:\sdk\include_lib\system\device\irkey.h
+	"typedef.h"
+
+1769531081 c:\sdk\include_lib\system\device\adkey.h
+	"typedef.h"
+	"asm/adc_api.h"
+
+1769531081 c:\sdk\include_lib\system\device\slidekey.h
+	"typedef.h"
+	"device/device.h"
+	"asm/adc_api.h"
+
+1769531081 c:\sdk\include_lib\system\device\touch_key.h
+	"typedef.h"
+	"asm/plcnt.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\plcnt.h
+
+1769531081 c:\sdk\include_lib\system\device\rdec_key.h
+	"typedef.h"
+	"asm/rdec.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\rdec.h
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\includes.h
+	"asm/cpu.h"
+	"asm/crc16.h"
+	"asm/clock.h"
+	"asm/uart.h"
+	"asm/uart_dev.h"
+	"asm/gpio.h"
+	"asm/spiflash.h"
+	"asm/csfr.h"
+	"asm/power_interface.h"
+	"asm/efuse.h"
+	"asm/wdt.h"
+	"asm/debug.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\crc16.h
+	"typedef.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\uart.h
+	"device/uart.h"
+	"device/device.h"
+
+1769531079 c:\sdk\include_lib\driver\device\uart.h
+	"typedef.h"
+	"device/device.h"
+	"generic/ioctl.h"
+	"system/task.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\uart_dev.h
+	"typedef.h"
+	"os/os_api.h"
+	"jiffies.h"
+	"irq.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\spiflash.h
+	"device/device.h"
+	"device/spiflash.h"
+
+1769531079 c:\sdk\include_lib\driver\device\spiflash.h
+	"typedef.h"
+	"generic/list.h"
+	"generic/ioctl.h"
+	"device/device.h"
+	"system/task.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\wdt.h
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\debug.h
+
+1769531079 c:\sdk\include_lib\driver\device\sdio_host_init.h
+
+1769531081 c:\sdk\include_lib\media\media_new\media\includes.h
+	"media/audio_decoder.h"
+	"media/audio_encoder.h"
+	"media/mixer.h"
+	"media/automute.h"
+	"media/audio_stream.h"
+	"asm/cpu_includes.h"
+	"application/eq_func_define.h"
+	"asm/dac.h"
+	"asm/audio_adc.h"
+	"asm/audio_src.h"
+	"asm/audio_spdif.h"
+
+1769531080 c:\sdk\include_lib\media\media_new\media\audio_decoder.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"media/audio_base.h"
+	"os/os_api.h"
+
+1769531080 c:\sdk\include_lib\media\media_new\media\audio_base.h
+
+1769531080 c:\sdk\include_lib\media\media_new\media\audio_encoder.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/circular_buf.h"
+	"media/audio_base.h"
+	"os/os_api.h"
+
+1769531081 c:\sdk\include_lib\media\media_new\media\mixer.h
+	"generic/typedef.h"
+	"generic/list.h"
+
+1769531080 c:\sdk\include_lib\media\media_new\media\automute.h
+	"generic/typedef.h"
+	"generic/list.h"
+
+1769531079 c:\sdk\include_lib\media\audio_stream.h
+	"generic/includes.h"
+	"media/audio_base.h"
+
+1769531081 c:\sdk\include_lib\media\media_new\media\cpu\br34\asm\cpu_includes.h
+	"asm/audio_adc.h"
+	"asm/audio_linein.h"
+	"asm/audio_src.h"
+	"asm/audio_src_sync.h"
+	"dac.h"
+	"asm/hw_eq.h"
+
+1769531081 c:\sdk\include_lib\media\media_new\media\cpu\br34\asm\audio_adc.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/atomic.h"
+
+1769531081 c:\sdk\include_lib\media\media_new\media\cpu\br34\asm\audio_linein.h
+	"generic/typedef.h"
+	"asm/audio_adc.h"
+
+1769531081 c:\sdk\include_lib\media\media_new\media\cpu\br34\asm\audio_src.h
+	"system/includes.h"
+
+1769531081 c:\sdk\include_lib\media\media_new\media\cpu\br34\asm\audio_src_sync.h
+	"system/includes.h"
+	"audio_src.h"
+
+1769531081 c:\sdk\include_lib\media\media_new\media\cpu\br34\asm\dac.h
+	"generic/typedef.h"
+	"generic/atomic.h"
+	"os/os_api.h"
+	"audio_src.h"
+
+1769531081 c:\sdk\include_lib\media\media_new\media\cpu\br34\asm\hw_eq.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"os/os_api.h"
+	"application/eq_func_define.h"
+
+1769531080 c:\sdk\include_lib\media\media_new\media\application\eq_func_define.h
+	"generic/typedef.h"
+
+1769531056 c:\sdk\apps\spp_and_le\include\app_action.h
+
+1769531056 c:\sdk\apps\spp_and_le\include\app_main.h
+
+1769531082 c:\sdk\include_lib\system\user_cfg.h
+	"typedef.h"
+	"app_config.h"
+
+1769531072 c:\sdk\cpu\br34\audio_config.h
+	"generic/typedef.h"
+	"board_config.h"
+
+1769531044 c:\sdk\apps\common\audio\audio_digital_vol.h
+	"generic/typedef.h"
+	"os/os_type.h"
+	"os/os_api.h"
+	"generic/list.h"
+
+1769531072 c:\sdk\cpu\br34\audio_dac_digital_volume.h
+	"generic/typedef.h"
+
+1769531072 c:\sdk\cpu\br34\audio_anc.h
+	"generic/typedef.h"
+	"asm/anc.h"
+	"anc_btspp.h"
+	"app_config.h"
+	"in_ear_detect/in_ear_manage.h"
+
+1769531081 c:\sdk\include_lib\media\media_new\media\cpu\br34\asm\anc.h
+	"generic/typedef.h"
+	"system/task.h"
+	"media/audio_def.h"
+
+1769531079 c:\sdk\include_lib\media\audio_def.h
+
+1769531080 c:\sdk\include_lib\media\media_new\media\anc_btspp.h
+	"generic/typedef.h"
+	"asm/anc.h"
+
+1769531044 c:\sdk\apps\common\device\in_ear_detect\in_ear_manage.h
+	"typedef.h"
+
+1769531082 c:\sdk\include_lib\update\update.h
+	"typedef.h"
+
+1769531081 c:\sdk\include_lib\system\debug.h
+	"asm/cpu.h"
+	"generic/typedef.h"
+
+1769531072 source:c:\sdk\cpu\br34\audio_codec_clock.c
+	"debug.h"
+	"app_config.h"
+	"system/includes.h"
+	"audio_codec_clock.h"
+
+1769531072 c:\sdk\cpu\br34\audio_codec_clock.h
+	"audio_base.h"
+
+1769531072 source:c:\sdk\cpu\br34\audio_dec.c
+	"asm/includes.h"
+	"media/includes.h"
+	"system/includes.h"
+	"classic/tws_api.h"
+	"classic/hci_lmp.h"
+	"effectrs_sync.h"
+	"application/eq_config.h"
+	"application/audio_energy_detect.h"
+	"app_config.h"
+	"audio_config.h"
+	"aec_user.h"
+	"audio_enc.h"
+	"app_main.h"
+	"btstack/avctp_user.h"
+	"btstack/a2dp_media_codec.h"
+	"tone_player.h"
+	"audio_syncts.h"
+	"audio_dec_eff.h"
+	"audio_codec_clock.h"
+	"audio_utils.h"
+	"bt_tws.h"
+	"audio_digital_vol.h"
+	"audio_plc.h"
+	"audio_noise_gate.h"
+	"fm_emitter/fm_emitter_manage.h"
+	"audio_anc.h"
+	"phone_message/phone_message.h"
+	"media/tech_lib/LFaudio_plc_api.h"
+	"timer.h"
+	"tone_player.h"
+
+1769531077 c:\sdk\include_lib\btctrler\classic\tws_api.h
+	"typedef.h"
+	"classic/tws_event.h"
+	"classic/tws_local_media_sync.h"
+	"classic/tws_data_trans.h"
+
+1769531077 c:\sdk\include_lib\btctrler\classic\tws_event.h
+
+1769531077 c:\sdk\include_lib\btctrler\classic\tws_local_media_sync.h
+	"generic/list.h"
+	"generic/typedef.h"
+
+1769531077 c:\sdk\include_lib\btctrler\classic\tws_data_trans.h
+	"generic/typedef.h"
+
+1769531077 c:\sdk\include_lib\btctrler\classic\hci_lmp.h
+
+1769531081 c:\sdk\include_lib\media\media_new\media\effectrs_sync.h
+	"generic/typedef.h"
+	"generic/list.h"
+
+1769531080 c:\sdk\include_lib\media\media_new\media\application\eq_config.h
+	"application/audio_eq.h"
+	"application/audio_drc.h"
+	"spinlock.h"
+	"math.h"
+
+1769531080 c:\sdk\include_lib\media\media_new\media\application\audio_eq.h
+	"typedef.h"
+	"asm/hw_eq.h"
+
+1769531080 c:\sdk\include_lib\media\media_new\media\application\audio_drc.h
+	"typedef.h"
+	"sw_drc.h"
+
+1769531081 c:\sdk\include_lib\media\media_new\media\sw_drc.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"os/os_api.h"
+	"drc_api.h"
+
+1769531081 c:\sdk\include_lib\media\media_new\media\drc_api.h
+
+1769531080 c:\sdk\include_lib\media\media_new\media\application\audio_energy_detect.h
+	"typedef.h"
+	"application/audio_energy_detect.h"
+
+1769531056 c:\sdk\apps\spp_and_le\include\aec_user.h
+	"generic/typedef.h"
+	"user_cfg.h"
+	"commproc_dms.h"
+	"commproc.h"
+
+1769531081 c:\sdk\include_lib\media\media_new\media\cpu\br34\commproc.h
+	"generic/typedef.h"
+
+1769531072 c:\sdk\cpu\br34\audio_enc.h
+	"generic/typedef.h"
+
+1769531077 c:\sdk\include_lib\btstack\avctp_user.h
+	"typedef.h"
+	"btstack_typedef.h"
+
+1769531077 c:\sdk\include_lib\btstack\btstack_typedef.h
+	"typedef.h"
+
+1769531077 c:\sdk\include_lib\btstack\a2dp_media_codec.h
+	"generic/typedef.h"
+
+1769531056 c:\sdk\apps\spp_and_le\include\tone_player.h
+	"app_config.h"
+	"audio_config.h"
+
+1769531080 c:\sdk\include_lib\media\media_new\media\audio_syncts.h
+	"typedef.h"
+
+1769531072 c:\sdk\cpu\br34\audio_dec_eff.h
+	"asm/includes.h"
+	"media/includes.h"
+	"system/includes.h"
+	"classic/tws_api.h"
+	"classic/hci_lmp.h"
+	"application/eq_config.h"
+	"application/audio_surround.h"
+	"app_config.h"
+	"audio_config.h"
+	"app_main.h"
+	"application/audio_vbass.h"
+
+1769531080 c:\sdk\include_lib\media\media_new\media\application\audio_surround.h
+	"surround/effect_sur_api.h"
+
+1769531081 c:\sdk\include_lib\media\media_new\media\surround\effect_sur_api.h
+
+1769531080 c:\sdk\include_lib\media\media_new\media\application\audio_vbass.h
+	"vbass/vbass_api.h"
+
+1769531081 c:\sdk\include_lib\media\media_new\media\vbass\vbass_api.h
+
+1769531044 c:\sdk\apps\common\audio\audio_utils.h
+	"generic/typedef.h"
+
+1769531056 c:\sdk\apps\spp_and_le\include\bt_tws.h
+	"classic/tws_api.h"
+	"classic/tws_event.h"
+
+1769531044 c:\sdk\apps\common\audio\audio_plc.h
+	"generic/typedef.h"
+
+1769531044 c:\sdk\apps\common\audio\audio_noise_gate.h
+	"generic/typedef.h"
+
+1769531045 c:\sdk\apps\common\phone_message\phone_message.h
+	"application/audio_dec_app.h"
+	"btstack/avctp_user.h"
+	"classic/tws_api.h"
+	"app_config.h"
+	"app_main.h"
+
+1769531080 c:\sdk\include_lib\media\media_new\media\application\audio_dec_app.h
+	"asm/includes.h"
+	"media/includes.h"
+	"system/includes.h"
+
+1769531081 c:\sdk\include_lib\media\tech_lib\lfaudio_plc_api.h
+
+1769531072 source:c:\sdk\cpu\br34\audio_dec\audio_dec_pc.c
+	"uac_stream.h"
+	"app_config.h"
+	"audio_decoder.h"
+	"media/includes.h"
+	"audio_config.h"
+	"system/includes.h"
+	"audio_enc.h"
+	"application/audio_eq.h"
+	"application/audio_drc.h"
+	"app_config.h"
+	"audio_config.h"
+	"audio_dec.h"
+	"app_main.h"
+	"clock_cfg.h"
+	"audio_dec_eff.h"
+	"audio_codec_clock.h"
+	"ui/ui_api.h"
+	"media/includes.h"
+
+1769531044 c:\sdk\apps\common\device\usb\device\uac_stream.h
+	"typedef.h"
+
+1769531072 c:\sdk\cpu\br34\audio_dec\audio_dec.h
+	"asm/includes.h"
+	"media/includes.h"
+	"system/includes.h"
+	"asm/audio_src.h"
+	"audio_digital_vol.h"
+
+1769531072 c:\sdk\cpu\br34\clock_cfg.h
+	"typedef.h"
+
+1769531072 source:c:\sdk\cpu\br34\audio_dec\audio_usb_mic.c
+	"asm/includes.h"
+	"media/includes.h"
+	"system/includes.h"
+	"device/uac_stream.h"
+	"audio_enc.h"
+	"app_main.h"
+	"user_cfg_id.h"
+	"board_config.h"
+	"aec_user.h"
+	"audio_track.h"
+	"Resample_api.h"
+
+1769531080 c:\sdk\include_lib\media\media_new\media\audio_track.h
+
+1769531080 c:\sdk\include_lib\media\media_new\media\resample_api.h
+
+1769531072 source:c:\sdk\cpu\br34\audio_enc.c
+	"asm/includes.h"
+	"media/includes.h"
+	"system/includes.h"
+	"classic/hci_lmp.h"
+	"aec_user.h"
+	"app_main.h"
+	"audio_config.h"
+	"pdm_link.h"
+	"audio_enc.h"
+	"audio_anc.h"
+	"phone_message/phone_message.h"
+
+1769531081 c:\sdk\include_lib\media\media_new\media\cpu\br34\asm\pdm_link.h
+
+1769531072 source:c:\sdk\cpu\br34\audio_mic_capless.c
+	"system/includes.h"
+	"media/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"app_main.h"
+	"audio_config.h"
+	"debug.h"
+
+1769531072 source:c:\sdk\cpu\br34\audio_mic_codec.c
+	"asm/includes.h"
+	"media/includes.h"
+	"system/includes.h"
+	"classic/hci_lmp.h"
+	"aec_user.h"
+	"asm/audio_src.h"
+	"audio_enc.h"
+	"audio_anc.h"
+	"app_main.h"
+	"btstack/avctp_user.h"
+
+1769531072 source:c:\sdk\cpu\br34\charge.c
+	"asm/clock.h"
+	"timer.h"
+	"asm/power/p33.h"
+	"asm/charge.h"
+	"asm/adc_api.h"
+	"uart.h"
+	"device/device.h"
+	"asm/power_interface.h"
+	"system/event.h"
+	"asm/efuse.h"
+	"gpio.h"
+	"app_config.h"
+	"debug.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\charge.h
+	"typedef.h"
+
+1769531072 source:c:\sdk\cpu\br34\chargestore.c
+	"generic/typedef.h"
+	"generic/gpio.h"
+	"asm/power/p33.h"
+	"asm/hwi.h"
+	"asm/gpio.h"
+	"asm/clock.h"
+	"asm/charge.h"
+	"asm/chargestore.h"
+	"update.h"
+	"app_config.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\chargestore.h
+
+1769531072 source:c:\sdk\cpu\br34\clock_manager.c
+	"system/includes.h"
+	"app_config.h"
+	"clock_cfg.h"
+
+1769531072 source:c:\sdk\cpu\br34\ctmu.c
+	"app_config.h"
+	"asm/ctmu.h"
+	"asm/gpio.h"
+	"debug.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\ctmu.h
+	"typedef.h"
+
+1769531072 source:c:\sdk\cpu\br34\handshake_timer.c
+	"asm/includes.h"
+	"system/includes.h"
+	"app_config.h"
+	"chargebox.h"
+
+1769531079 c:\sdk\include_lib\driver\device\chargebox.h
+	"typedef.h"
+
+1769531072 source:c:\sdk\cpu\br34\iic_hw.c
+	"asm/iic_hw.h"
+	"system/generic/gpio.h"
+	"system/generic/log.h"
+	"asm/clock.h"
+	"asm/cpu.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\iic_hw.h
+	"system/generic/typedef.h"
+
+1769531072 source:c:\sdk\cpu\br34\iic_soft.c
+	"asm/iic_soft.h"
+	"generic/gpio.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\iic_soft.h
+	"generic/typedef.h"
+
+1769531072 source:c:\sdk\cpu\br34\irflt.c
+	"asm/includes.h"
+	"asm/irflt.h"
+	"timer.h"
+	"generic/gpio.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\irflt.h
+
+1769531072 source:c:\sdk\cpu\br34\lp_touch_key.c
+	"includes.h"
+	"asm/power/p11.h"
+	"asm/power/p33.h"
+	"asm/lp_touch_key_api.h"
+	"asm/lp_touch_key_alog.h"
+	"asm/lp_touch_key_hw.h"
+	"device/key_driver.h"
+	"bt_tws.h"
+	"classic/tws_api.h"
+	"key_event_deal.h"
+	"btstack/avctp_user.h"
+	"app_config.h"
+	"debug.h"
+	"online_db_deal.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\lp_touch_key_api.h
+	"typedef.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\lp_touch_key_alog.h
+	"typedef.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\lp_touch_key_hw.h
+
+1769531056 c:\sdk\apps\spp_and_le\include\key_event_deal.h
+	"typedef.h"
+	"system/event.h"
+
+1769531047 c:\sdk\apps\common\third_party_profile\jieli\online_db\online_db_deal.h
+	"typedef.h"
+
+1769531072 source:c:\sdk\cpu\br34\lp_touch_key_alog.c
+	"includes.h"
+	"asm/lp_touch_key_alog.h"
+
+1769531072 source:c:\sdk\cpu\br34\pwm_led.c
+	"generic/gpio.h"
+	"asm/includes.h"
+	"asm/pwm_led.h"
+	"asm/power/p11.h"
+	"asm/power/p33.h"
+	"system/timer.h"
+	"app_config.h"
+	"classic/tws_api.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\pwm_led.h
+
+1769531072 source:c:\sdk\cpu\br34\setup.c
+	"asm/includes.h"
+	"asm/wdt.h"
+	"asm/debug.h"
+	"asm/efuse.h"
+	"asm/power/p33.h"
+	"asm/efuse.h"
+	"system/task.h"
+	"system/bank_switch.h"
+	"timer.h"
+	"app_config.h"
+	"gpio.h"
+	"debug.h"
+
+1770385290 source:c:\sdk\cpu\br34\spi.c
+	"system/debug.h"
+	"generic/gpio.h"
+	"asm/clock.h"
+	"asm/spi.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\spi.h
+	"typedef.h"
+	"generic/ioctl.h"
+
+1769531072 source:c:\sdk\cpu\br34\timer_pwm.c
+	"asm/includes.h"
+	"asm/gpio.h"
+
+1769531072 source:c:\sdk\cpu\br34\tone_player.c
+	"system/includes.h"
+	"media/includes.h"
+	"tone_player.h"
+	"audio_config.h"
+	"app_main.h"
+	"btstack/avctp_user.h"
+	"aec_user.h"
+	"audio_digital_vol.h"
+	"audio_codec_clock.h"
+	"fm_emitter/fm_emitter_manage.h"
+	"tone_player_api.h"
+	"debug.h"
+	"media/bt_audio_timestamp.h"
+	"audio_syncts.h"
+	"bt_tws.h"
+
+1769531072 c:\sdk\cpu\br34\tone_player_api.h
+	"audio_config.h"
+	"sine_make.h"
+
+1769531044 c:\sdk\apps\common\audio\sine_make.h
+	"generic/typedef.h"
+
+1769531079 c:\sdk\include_lib\media\bt_audio_timestamp.h
+	"typedef.h"
+
+1770379571 source:c:\sdk\cpu\br34\uart_dev.c
+	"asm/clock.h"
+	"asm/uart_dev.h"
+	"asm/cpu.h"
+	"generic/gpio.h"
+	"spinlock.h"
+
+1769531044 source:c:\sdk\apps\common\audio\audio_utils.c
+	"audio_utils.h"
+
+1769531044 source:c:\sdk\apps\common\audio\decode\decode.c
+	"application/audio_dec_app.h"
+	"app_config.h"
+	"audio_config.h"
+	"app_main.h"
+	"tone_player.h"
+
+1769531044 source:c:\sdk\apps\common\audio\sine_make.c
+	"system/includes.h"
+	"sine_make.h"
+	"MathFunc_float.h"
+
+1769531080 c:\sdk\include_lib\media\media_new\media\mathfunc_float.h
+	"MathFunc_fix.h"
+
+1769531080 c:\sdk\include_lib\media\media_new\media\mathfunc_fix.h
+
+1769531044 source:c:\sdk\apps\common\bt_common\bt_test_api.c
+	"typedef.h"
+	"app_config.h"
+	"task.h"
+	"btctrler_task.h"
+	"btcontroller_config.h"
+	"system/includes.h"
+	"debug.h"
+
+1769531077 c:\sdk\include_lib\btctrler\btctrler_task.h
+	"typedef.h"
+	"system/task.h"
+
+1769531077 c:\sdk\include_lib\btctrler\port\br34\btcontroller_config.h
+	"btcontroller_modules.h"
+	"ble/ll_config.h"
+	"classic/lmp_config.h"
+
+1769531077 c:\sdk\include_lib\btctrler\btcontroller_modules.h
+	"hci_transport.h"
+	"btcontroller_mode.h"
+	"ble/hci_ll.h"
+	"classic/hci_lmp.h"
+
+1769531077 c:\sdk\include_lib\btctrler\hci_transport.h
+	"generic/typedef.h"
+
+1769531077 c:\sdk\include_lib\btctrler\ble\hci_ll.h
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"typedef.h"
+
+1769531077 c:\sdk\include_lib\btctrler\ble\ll_config.h
+	<stdint.h>
+
+1769531077 c:\sdk\include_lib\btctrler\classic\lmp_config.h
+
+1769531044 source:c:\sdk\apps\common\cjson\cjson.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1769531044 c:\sdk\apps\common\cjson\cjson.h
+
+1769531044 source:c:\sdk\apps\common\debug\debug.c
+	"app_config.h"
+	"typedef.h"
+
+1769531044 source:c:\sdk\apps\common\device\gsensor\fmy\gsensor_api.c
+	"includes.h"
+	"gsensor_api.h"
+	"Motion_api.h"
+
+1769531044 c:\sdk\apps\common\device\gsensor\fmy\gsensor_api.h
+	"gSensor_manage.h"
+
+1769531044 c:\sdk\apps\common\device\gsensor\fmy\gsensor_manage.h
+	"printf.h"
+	"cpu.h"
+	"asm/iic_hw.h"
+	"asm/iic_soft.h"
+	"timer.h"
+	"app_config.h"
+	"event.h"
+	"system/includes.h"
+
+1769531044 c:\sdk\apps\common\device\gsensor\fmy\motion_api.h
+
+1769531044 source:c:\sdk\apps\common\device\gsensor\fmy\gsensor_manage.c
+	"gSensor_manage.h"
+	"device/device.h"
+	"app_config.h"
+	"debug.h"
+	"key_event_deal.h"
+	"btstack/avctp_user.h"
+	"app_main.h"
+	"tone_player.h"
+	"user_cfg.h"
+	"system/os/os_api.h"
+	"Motion_api.h"
+
+1769531044 source:c:\sdk\apps\common\device\gsensor\fmy\msa310.c
+	"gSensor_manage.h"
+	"app_config.h"
+	"msa310.h"
+	"msa310_function.h"
+	"Motion_api.h"
+
+1769531044 c:\sdk\apps\common\device\gsensor\fmy\msa310.h
+	"gSensor_manage.h"
+
+1769531044 c:\sdk\apps\common\device\gsensor\fmy\msa310_function.h
+
+1769531044 source:c:\sdk\apps\common\device\gsensor\fmy\msa310_function.c
+	"gSensor_manage.h"
+	"msa310_function.h"
+
+1769531044 source:c:\sdk\apps\common\device\gsensor\fmy\sc7a20_e.c
+	"app_config.h"
+	"gSensor_manage.h"
+	"SC7A20_TR.h"
+	"includes.h"
+	"Motion_api.h"
+
+1769531044 c:\sdk\apps\common\device\gsensor\fmy\sc7a20_tr.h
+
+1769531044 source:c:\sdk\apps\common\device\gsensor\fmy\sc7a20_tr.c
+	"app_config.h"
+	"gSensor_manage.h"
+	"SC7A20_TR.h"
+	"includes.h"
+	"math.h"
+	"bank_switch.h"
+	"gpio.h"
+	"Motion_api.h"
+
+1769531044 source:c:\sdk\apps\common\device\key\adkey.c
+	"key_driver.h"
+	"adkey.h"
+	"gpio.h"
+	"system/event.h"
+	"app_config.h"
+
+1769531044 source:c:\sdk\apps\common\device\key\iokey.c
+	"key_driver.h"
+	"iokey.h"
+	"gpio.h"
+	"system/event.h"
+	"app_config.h"
+	"asm/clock.h"
+
+1769531044 source:c:\sdk\apps\common\device\key\irkey.c
+	"key_driver.h"
+	"irkey.h"
+	"gpio.h"
+	"asm/irflt.h"
+	"app_config.h"
+
+1769531044 source:c:\sdk\apps\common\device\key\key_driver.c
+	"device/key_driver.h"
+	"system/event.h"
+	"system/init.h"
+	"iokey.h"
+	"adkey.h"
+	"slidekey.h"
+	"irkey.h"
+	"touch_key.h"
+	"system/timer.h"
+	"asm/power_interface.h"
+	"app_config.h"
+	"rdec_key.h"
+	"tent600_key.h"
+	"tone_player.h"
+	"irSensor/ir_manage.h"
+	"debug.h"
+	"asm/ctmu.h"
+
+1769531081 c:\sdk\include_lib\system\device\tent600_key.h
+	"typedef.h"
+	"asm/adc_api.h"
+
+1769531044 source:c:\sdk\apps\common\device\key\touch_key.c
+	"touch_key.h"
+	"key_driver.h"
+	"app_config.h"
+
+1769531044 source:c:\sdk\apps\common\device\norflash\norflash.c
+	"norflash.h"
+	"app_config.h"
+	"asm/clock.h"
+	"system/timer.h"
+	"debug.h"
+
+1769531045 c:\sdk\apps\common\include\norflash.h
+	"device/device.h"
+	"ioctl_cmds.h"
+	"asm/spi.h"
+	"printf.h"
+	"gpio.h"
+	"device_drive.h"
+	"malloc.h"
+
+1769531081 c:\sdk\include_lib\system\device\device_drive.h
+	"typedef.h"
+	"errno-base.h"
+	"ioctl.h"
+	"os/os_api.h"
+	<pthread.h>
+
+1769531044 source:c:\sdk\apps\common\device\usb\device\cdc.c
+	"usb/device/usb_stack.h"
+	"usb/usb_config.h"
+	"usb/device/cdc.h"
+	"app_config.h"
+	"os/os_api.h"
+	"cdc_defs.h"
+	"debug.h"
+
+1769531079 c:\sdk\include_lib\driver\device\usb\device\usb_stack.h
+	"typedef.h"
+	"asm/usb.h"
+	"usb/ch9.h"
+	"usb/usb_phy.h"
+	"usb/otg.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\usb.h
+	"typedef.h"
+	"generic/ioctl.h"
+
+1769531079 c:\sdk\include_lib\driver\device\usb\ch9.h
+	"typedef.h"
+
+1769531079 c:\sdk\include_lib\driver\device\usb\usb_phy.h
+	"typedef.h"
+	"asm/usb.h"
+
+1769531079 c:\sdk\include_lib\driver\device\usb\otg.h
+	"asm/usb.h"
+
+1769531045 c:\sdk\apps\common\device\usb\usb_config.h
+	"typedef.h"
+	"asm/usb.h"
+	"usb/device/usb_stack.h"
+	"usb/host/usb_host.h"
+
+1769531079 c:\sdk\include_lib\driver\device\usb\host\usb_host.h
+	"system/task.h"
+	"device/device.h"
+	"asm/usb.h"
+	"usb/ch9.h"
+	"usb/usb_phy.h"
+
+1769531044 c:\sdk\apps\common\device\usb\device\cdc.h
+	"usb/device/usb_stack.h"
+
+1769531044 c:\sdk\apps\common\device\usb\device\cdc_defs.h
+	"typedef.h"
+
+1770452466 source:c:\sdk\apps\common\device\usb\device\custom_hid.c
+	"os/os_api.h"
+	"usb/device/usb_stack.h"
+	"usb/device/hid.h"
+	"usb_config.h"
+	"app_config.h"
+	"debug.h"
+
+1769531079 c:\sdk\include_lib\driver\device\usb\device\hid.h
+	"typedef.h"
+	"asm/usb.h"
+
+1770462514 source:c:\sdk\apps\common\device\usb\device\descriptor.c
+	"usb/device/usb_stack.h"
+	"usb/device/descriptor.h"
+	"usb/device/uac_audio.h"
+	"app_config.h"
+	"debug.h"
+
+1769531079 c:\sdk\include_lib\driver\device\usb\device\descriptor.h
+	"asm/usb.h"
+
+1769531079 c:\sdk\include_lib\driver\device\usb\device\uac_audio.h
+	"asm/usb.h"
+
+1770447279 source:c:\sdk\apps\common\device\usb\device\hid.c
+	"os/os_api.h"
+	"usb/device/usb_stack.h"
+	"usb/device/hid.h"
+	"usb_config.h"
+	"app_config.h"
+	"debug.h"
+
+1769531044 source:c:\sdk\apps\common\device\usb\device\msd.c
+	"system/includes.h"
+	"usb/device/usb_stack.h"
+	"usb/device/msd.h"
+	"usb/scsi.h"
+	"usb_config.h"
+	"device/device.h"
+	"app_config.h"
+	"dev_manager.h"
+	"apple_dock/iAP.h"
+	"debug.h"
+
+1769531079 c:\sdk\include_lib\driver\device\usb\device\msd.h
+	"asm/usb.h"
+	"usb_stack.h"
+
+1769531079 c:\sdk\include_lib\driver\device\usb\scsi.h
+
+1769531081 c:\sdk\include_lib\system\apple_dock\iap.h
+	"generic/typedef.h"
+	"uart.h"
+
+1769531044 source:c:\sdk\apps\common\device\usb\device\msd_upgrade.c
+	"system/includes.h"
+	"usb/device/msd.h"
+	"usb/scsi.h"
+	"usb_config.h"
+	"app_config.h"
+	"cpu.h"
+	"asm/debug.h"
+
+1769531044 source:c:\sdk\apps\common\device\usb\device\task_pc.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"device/sdmmc.h"
+	"app_charge.h"
+	"asm/charge.h"
+	"app_task.h"
+	"usb/usb_config.h"
+	"usb/device/usb_stack.h"
+	"usb/device/hid.h"
+	"usb/device/msd.h"
+	"usb/device/cdc.h"
+	"dev_multiplex_api.h"
+	"apple_dock/iAP.h"
+	"app_sound_box_tool.h"
+	"usb/device/custom_hid.h"
+	"debug.h"
+
+1769531082 c:\sdk\include_lib\system\server\server_core.h
+	"generic/typedef.h"
+	"system/task.h"
+	"spinlock.h"
+	"list.h"
+
+1769531079 c:\sdk\include_lib\driver\device\sdmmc.h
+	"generic/typedef.h"
+	"generic/ioctl.h"
+
+1769531056 c:\sdk\apps\spp_and_le\include\app_charge.h
+	"typedef.h"
+	"system/event.h"
+
+1769531056 c:\sdk\apps\spp_and_le\include\app_task.h
+
+1770452246 c:\sdk\include_lib\driver\device\usb\device\custom_hid.h
+	"typedef.h"
+	"asm/usb.h"
+
+1769531044 source:c:\sdk\apps\common\device\usb\device\uac1.c
+	"system/includes.h"
+	"usb_config.h"
+	"usb/device/usb_stack.h"
+	"usb/device/uac_audio.h"
+	"app_config.h"
+	"debug.h"
+
+1769531044 source:c:\sdk\apps\common\device\usb\device\uac_stream.c
+	"app_config.h"
+	"system/includes.h"
+	"printf.h"
+	"usb/usb_config.h"
+	"usb/device/usb_stack.h"
+	"usb/device/uac_audio.h"
+	"uac_stream.h"
+	"audio_config.h"
+	"audio_track.h"
+	"debug.h"
+
+1769531044 source:c:\sdk\apps\common\device\usb\device\usb_device.c
+	"usb/device/usb_stack.h"
+	"usb_config.h"
+	"usb/device/msd.h"
+	"usb/scsi.h"
+	"usb/device/hid.h"
+	"usb/device/custom_hid.h"
+	"usb/device/uac_audio.h"
+	"usb/device/cdc.h"
+	"irq.h"
+	"init.h"
+	"gpio.h"
+	"app_config.h"
+	"debug.h"
+
+1769531044 source:c:\sdk\apps\common\device\usb\device\user_setup.c
+	"usb/device/usb_stack.h"
+	"usb_config.h"
+	"usb/device/msd.h"
+	"usb/scsi.h"
+	"usb/device/hid.h"
+	"usb/device/uac_audio.h"
+	"irq.h"
+	"init.h"
+	"gpio.h"
+	"app_config.h"
+	"apple_dock/iAP.h"
+	"debug.h"
+
+1769531044 source:c:\sdk\apps\common\device\usb\host\adb.c
+	"includes.h"
+	"asm/includes.h"
+	"system/timer.h"
+	"device/ioctl_cmds.h"
+	"usb/host/usb_host.h"
+	"usb_ctrl_transfer.h"
+	"usb_bulk_transfer.h"
+	"device_drive.h"
+	"adb.h"
+	"usb_config.h"
+	"app_config.h"
+	"debug.h"
+	"adb_rsa_key.c"
+
+1769531045 c:\sdk\apps\common\device\usb\host\usb_ctrl_transfer.h
+	"usb/ch9.h"
+	"usb/usb_phy.h"
+	"device/device.h"
+	"usb_config.h"
+
+1769531045 c:\sdk\apps\common\device\usb\host\usb_bulk_transfer.h
+	"typedef.h"
+	"device/device.h"
+
+1769531044 c:\sdk\apps\common\device\usb\host\adb.h
+	"system/task.h"
+	"device/device.h"
+	"usb/scsi.h"
+	"usb_bulk_transfer.h"
+	"usb/host/usb_host.h"
+
+1769531044 c:\sdk\apps\common\device\usb\host\adb_rsa_key.c
+	"typedef.h"
+	"app_config.h"
+
+1769531044 source:c:\sdk\apps\common\device\usb\host\aoa.c
+	"includes.h"
+	"app_config.h"
+	"usb_config.h"
+	"usb/host/usb_host.h"
+	"usb/usb_phy.h"
+	"device_drive.h"
+	"usb_ctrl_transfer.h"
+	"usb_bulk_transfer.h"
+	"usb_storage.h"
+	"adb.h"
+	"aoa.h"
+	"usb_hid_keys.h"
+	"gamebox.h"
+	"debug.h"
+
+1769531045 c:\sdk\apps\common\device\usb\host\usb_storage.h
+	"system/task.h"
+	"device/device.h"
+	"usb/scsi.h"
+	"usb_bulk_transfer.h"
+	"usb/host/usb_host.h"
+
+1769531044 c:\sdk\apps\common\device\usb\host\aoa.h
+
+1769531045 c:\sdk\apps\common\device\usb\host\usb_hid_keys.h
+
+1769531044 source:c:\sdk\apps\common\device\usb\host\audio.c
+	"includes.h"
+	"asm/includes.h"
+	"app_config.h"
+	"system/timer.h"
+	"device/ioctl_cmds.h"
+	"device_drive.h"
+	"usb/host/usb_host.h"
+	"usb_ctrl_transfer.h"
+	"usb_bulk_transfer.h"
+	"audio.h"
+	"usb_config.h"
+	"debug.h"
+
+1769531044 c:\sdk\apps\common\device\usb\host\audio.h
+	"system/task.h"
+	"device/device.h"
+	"usb_bulk_transfer.h"
+	"usb/host/usb_host.h"
+	"usb/device/uac_audio.h"
+
+1769531044 source:c:\sdk\apps\common\device\usb\host\audio_demo.c
+	"includes.h"
+	"asm/includes.h"
+	"app_config.h"
+	"system/timer.h"
+	"device/ioctl_cmds.h"
+	"device_drive.h"
+	"usb/host/usb_host.h"
+	"usb_ctrl_transfer.h"
+	"usb_bulk_transfer.h"
+	"audio.h"
+	"usb_config.h"
+	"debug.h"
+
+1770452366 source:c:\sdk\apps\common\device\usb\host\hid.c
+	"includes.h"
+	"asm/includes.h"
+	"app_config.h"
+	"system/timer.h"
+	"device/ioctl_cmds.h"
+	"device_drive.h"
+	"usb/host/usb_host.h"
+	"usb_ctrl_transfer.h"
+	"usb_bulk_transfer.h"
+	"hid.h"
+	"usb_config.h"
+	"usb_hid_keys.h"
+	"debug.h"
+
+1769531044 c:\sdk\apps\common\device\usb\host\hid.h
+	"system/task.h"
+	"device/device.h"
+	"usb/scsi.h"
+	"usb_bulk_transfer.h"
+	"usb/host/usb_host.h"
+
+1769531045 source:c:\sdk\apps\common\device\usb\host\usb_bulk_transfer.c
+	<string.h>
+	"jiffies.h"
+	"usb_config.h"
+	"usb_bulk_transfer.h"
+	"usb_ctrl_transfer.h"
+	"usb_storage.h"
+	"usb/host/usb_host.h"
+	"usb/usb_phy.h"
+	"app_config.h"
+	"device_drive.h"
+	"debug.h"
+
+1769531045 source:c:\sdk\apps\common\device\usb\host\usb_ctrl_transfer.c
+	"usb/host/usb_host.h"
+	"usb_ctrl_transfer.h"
+	"app_config.h"
+	"device_drive.h"
+	"gpio.h"
+	"usb/scsi.h"
+	"debug.h"
+
+1769531045 source:c:\sdk\apps\common\device\usb\host\usb_host.c
+	"includes.h"
+	"app_config.h"
+	"device_drive.h"
+	"usb_config.h"
+	"usb/host/usb_host.h"
+	"usb/usb_phy.h"
+	"usb_ctrl_transfer.h"
+	"usb_storage.h"
+	"adb.h"
+	"aoa.h"
+	"hid.h"
+	"audio.h"
+	"apple_dock/iAP.h"
+	"apple_mfi.h"
+	"debug.h"
+
+1769531044 c:\sdk\apps\common\device\usb\host\apple_mfi.h
+
+1769531045 source:c:\sdk\apps\common\device\usb\host\usb_storage.c
+	"asm/includes.h"
+	"system/timer.h"
+	"device/ioctl_cmds.h"
+	"usb/host/usb_host.h"
+	"usb_ctrl_transfer.h"
+	"usb_bulk_transfer.h"
+	"device_drive.h"
+	"usb_storage.h"
+	"usb_config.h"
+	"app_config.h"
+	"debug.h"
+
+1769531045 source:c:\sdk\apps\common\device\usb\usb_config.c
+	"usb_config.h"
+	"usb/scsi.h"
+	"irq.h"
+	"init.h"
+	"gpio.h"
+	"timer.h"
+	"app_config.h"
+	"lbuf.h"
+	"adapter_usb_hid.h"
+	"debug.h"
+
+1769531045 source:c:\sdk\apps\common\device\usb\usb_host_config.c
+	"usb_config.h"
+	"usb/scsi.h"
+	"irq.h"
+	"init.h"
+	"gpio.h"
+	"app_config.h"
+	"debug.h"
+
+1769531045 source:c:\sdk\apps\common\jl_kws\jl_kws_algo.c
+	"jl_kws_common.h"
+
+1769531045 c:\sdk\apps\common\jl_kws\jl_kws_common.h
+	"includes.h"
+	"app_config.h"
+
+1769531045 source:c:\sdk\apps\common\jl_kws\jl_kws_audio.c
+	"jl_kws_common.h"
+	"audio_enc.h"
+	"asm/audio_adc.h"
+	"audio_codec_clock.h"
+
+1769531045 source:c:\sdk\apps\common\jl_kws\jl_kws_event.c
+	"jl_kws_common.h"
+	"btstack/avctp_user.h"
+	"bt_tws.h"
+
+1769531045 source:c:\sdk\apps\common\jl_kws\jl_kws_main.c
+	"jl_kws_common.h"
+	"jl_kws_api.h"
+
+1769531045 c:\sdk\apps\common\jl_kws\jl_kws_api.h
+
+1769531045 source:c:\sdk\apps\common\temp_trim\dtemp_pll_trim.c
+	"typedef.h"
+	"asm/clock.h"
+	"timer.h"
+	"asm/efuse.h"
+	"irq.h"
+	"asm/power_interface.h"
+	"jiffies.h"
+	"app_config.h"
+	"syscfg_id.h"
+	"system/includes.h"
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\common\custom_cfg.c
+	"custom_cfg.h"
+	"app_config.h"
+	"rcsp_user_update.h"
+	"rcsp_bluetooth.h"
+	"rcsp_adv_user_update.h"
+	"rcsp_adv_bluetooth.h"
+	"smartbox_adv_bluetooth.h"
+	"app_protocol_api.h"
+	"app_config.h"
+	"fs.h"
+	"uart.h"
+	<string.h>
+	"flash_api.h"
+
+1769531045 c:\sdk\apps\common\third_party_profile\common\custom_cfg.h
+	"typedef.h"
+	<string.h>
+	"app_config.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\jieli\jl_rcsp\rcsp_updata\rcsp_user_update.h
+	"typedef.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\jieli\jl_rcsp\rcsp_bluetooth.h
+	"typedef.h"
+	"le_common.h"
+	"spp_user.h"
+	"system/event.h"
+	"rcsp_msg.h"
+	"ble_user.h"
+	"rcsp_hid_inter.h"
+
+1769531047 c:\sdk\apps\common\third_party_profile\jieli\le_common.h
+	"typedef.h"
+	<stdint.h>
+	"btstack/bluetooth.h"
+	"app_config.h"
+	"btstack/le/le_common_define.h"
+
+1769531077 c:\sdk\include_lib\btstack\bluetooth.h
+	"typedef.h"
+	"le/ble_data_types.h"
+	"le/ble_api.h"
+	"le/le_user.h"
+	"le/att.h"
+	"le/gatt.h"
+	"le/sm.h"
+	"btstack_event.h"
+
+1769531077 c:\sdk\include_lib\btstack\le\ble_data_types.h
+
+1769531077 c:\sdk\include_lib\btstack\le\ble_api.h
+	"typedef.h"
+	"btstack/btstack_typedef.h"
+
+1769531077 c:\sdk\include_lib\btstack\le\le_user.h
+	"typedef.h"
+	"btstack/btstack_typedef.h"
+	"ble_api.h"
+
+1769531077 c:\sdk\include_lib\btstack\le\att.h
+	"typedef.h"
+	"btstack/btstack_typedef.h"
+
+1769531077 c:\sdk\include_lib\btstack\le\gatt.h
+	"typedef.h"
+
+1769531077 c:\sdk\include_lib\btstack\le\sm.h
+	"typedef.h"
+
+1769531077 c:\sdk\include_lib\btstack\btstack_event.h
+	"btstack/btstack_typedef.h"
+	<stdint.h>
+	"le/gatt.h"
+
+1769531077 c:\sdk\include_lib\btstack\le\le_common_define.h
+	"typedef.h"
+	<stdint.h>
+	"btstack/bluetooth.h"
+
+1769531077 c:\sdk\include_lib\btstack\third_party\common\spp_user.h
+	"typedef.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\jieli\jl_rcsp\rcsp_msg.h
+
+1769531077 c:\sdk\include_lib\btstack\third_party\common\ble_user.h
+	"typedef.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\jieli\jl_rcsp\bt_trans_data\rcsp_hid_inter.h
+	"typedef.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\jieli\jl_rcsp\rcsp_updata\rcsp_adv_user_update.h
+	"typedef.h"
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\hilink_protocol\hilink_ota.c
+	"hilink_ota.h"
+	"dual_bank_updata_api.h"
+
+1769531045 c:\sdk\apps\common\third_party_profile\hilink_protocol\hilink_ota.h
+	"typedef.h"
+	"hilink_protocol.h"
+
+1769531045 c:\sdk\apps\common\third_party_profile\hilink_protocol\hilink_protocol.h
+	"typedef.h"
+	"btstack/third_party/app_protocol_event.h"
+	"md.h"
+	"gcm.h"
+	"cJSON.h"
+
+1769531077 c:\sdk\include_lib\btstack\third_party\app_protocol_event.h
+	<string.h>
+	<stdint.h>
+	"typedef.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\md.h
+	<stddef.h>
+	"mbedtls/config.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\config.h
+	"app_config.h"
+	"mbedtls/config_psa.h"
+	"mbedtls/check_config.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\config_psa.h
+	"psa/crypto_config.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\psa\crypto_config.h
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\check_config.h
+	<limits.h>
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\gcm.h
+	"mbedtls/config.h"
+	"mbedtls/cipher.h"
+	<stdint.h>
+	"gcm_alt.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\cipher.h
+	"mbedtls/config.h"
+	<stddef.h>
+	"mbedtls/platform_util.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\platform_util.h
+	"mbedtls/config.h"
+	<stddef.h>
+	"mbedtls/platform_time.h"
+	<time.h>
+	<assert.h>
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\platform_time.h
+	"mbedtls/config.h"
+	<time.h>
+
+1769531082 c:\sdk\include_lib\update\dual_bank_updata_api.h
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\hilink_protocol\hilink_protocol.c
+	"hilink_protocol.h"
+	"hilink_task.h"
+	"gpio.h"
+
+1769531045 c:\sdk\apps\common\third_party_profile\hilink_protocol\hilink_task.h
+	"typedef.h"
+	"os/os_api.h"
+	"circular_buf.h"
+	"hilink_ota.h"
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\hilink_protocol\hilink_task.c
+	"hilink_task.h"
+	"os/os_api.h"
+	"hilink_protocol.h"
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\aes.c
+	"common.h"
+	<string.h>
+	"mbedtls/aes.h"
+	"mbedtls/platform.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	"mbedtls/padlock.h"
+	"mbedtls/aesni.h"
+	"mbedtls/platform.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\common.h
+	"mbedtls/config.h"
+
+1769531045 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\aes.h
+	"mbedtls/config.h"
+	<stddef.h>
+	<stdint.h>
+	"aes_alt.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\platform.h
+	"mbedtls/config.h"
+	"mbedtls/platform_time.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdarg.h>
+	"platform_alt.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\error.h
+	"mbedtls/config.h"
+	<stddef.h>
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\padlock.h
+	"mbedtls/config.h"
+	"mbedtls/aes.h"
+	<stdint.h>
+
+1769531045 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\aesni.h
+	"mbedtls/config.h"
+	"mbedtls/aes.h"
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\arc4.c
+	"common.h"
+	"mbedtls/arc4.h"
+	"mbedtls/platform_util.h"
+	<string.h>
+	"mbedtls/platform.h"
+
+1769531045 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\arc4.h
+	"mbedtls/config.h"
+	<stddef.h>
+	"arc4_alt.h"
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\bignum.c
+	"common.h"
+	"mbedtls/bignum.h"
+	"mbedtls/bn_mul.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	"mbedtls/platform.h"
+	<stdlib.h>
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\bignum.h
+	"mbedtls/config.h"
+	<stddef.h>
+	<stdint.h>
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\bn_mul.h
+	"mbedtls/config.h"
+	"mbedtls/bignum.h"
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\blowfish.c
+	"common.h"
+	"mbedtls/blowfish.h"
+	"mbedtls/platform_util.h"
+	<string.h>
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\blowfish.h
+	"mbedtls/config.h"
+	<stddef.h>
+	<stdint.h>
+	"mbedtls/platform_util.h"
+	"blowfish_alt.h"
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\ccm.c
+	"common.h"
+	"mbedtls/ccm.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	"mbedtls/platform.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\ccm.h
+	"mbedtls/config.h"
+	"mbedtls/cipher.h"
+	"ccm_alt.h"
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\chacha20.c
+	"common.h"
+	"mbedtls/chacha20.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<stddef.h>
+	<string.h>
+	"mbedtls/platform.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\chacha20.h
+	"mbedtls/config.h"
+	<stdint.h>
+	<stddef.h>
+	"chacha20_alt.h"
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\chachapoly.c
+	"common.h"
+	"mbedtls/chachapoly.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	"mbedtls/platform.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\chachapoly.h
+	"mbedtls/config.h"
+	"mbedtls/poly1305.h"
+	"mbedtls/chacha20.h"
+	"chachapoly_alt.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\poly1305.h
+	"mbedtls/config.h"
+	<stdint.h>
+	<stddef.h>
+	"poly1305_alt.h"
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\cipher.c
+	"common.h"
+	"mbedtls/cipher.h"
+	"mbedtls/cipher_internal.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<stdlib.h>
+	<string.h>
+	"mbedtls/chachapoly.h"
+	"mbedtls/gcm.h"
+	"mbedtls/ccm.h"
+	"mbedtls/chacha20.h"
+	"mbedtls/cmac.h"
+	"psa/crypto.h"
+	"mbedtls/psa_util.h"
+	"mbedtls/nist_kw.h"
+	"mbedtls/platform.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\cipher_internal.h
+	"mbedtls/config.h"
+	"mbedtls/cipher.h"
+	"psa/crypto.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\psa\crypto.h
+	"crypto_platform.h"
+	<stddef.h>
+	"crypto_types.h"
+	"crypto_values.h"
+	"crypto_sizes.h"
+	"crypto_struct.h"
+	"crypto_extra.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\psa\crypto_platform.h
+	"mbedtls/config.h"
+	"mbedtls/config_psa.h"
+	<stdint.h>
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\psa\crypto_types.h
+	"crypto_platform.h"
+	<stdint.h>
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\psa\crypto_values.h
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\psa\crypto_sizes.h
+	"mbedtls/config.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\psa\crypto_struct.h
+	"mbedtls/config.h"
+	"mbedtls/cipher.h"
+	"mbedtls/cmac.h"
+	"mbedtls/gcm.h"
+	"mbedtls/md.h"
+	"mbedtls/md2.h"
+	"mbedtls/md4.h"
+	"mbedtls/md5.h"
+	"mbedtls/ripemd160.h"
+	"mbedtls/sha1.h"
+	"mbedtls/sha256.h"
+	"mbedtls/sha512.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\cmac.h
+	"mbedtls/config.h"
+	"mbedtls/cipher.h"
+	"cmac_alt.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\md2.h
+	"mbedtls/config.h"
+	<stddef.h>
+	"md2_alt.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\md4.h
+	"mbedtls/config.h"
+	<stddef.h>
+	<stdint.h>
+	"md4_alt.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\md5.h
+	"mbedtls/config.h"
+	<stddef.h>
+	<stdint.h>
+	"md5_alt.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\ripemd160.h
+	"mbedtls/config.h"
+	<stddef.h>
+	<stdint.h>
+	"ripemd160_alt.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\sha1.h
+	"mbedtls/config.h"
+	<stddef.h>
+	<stdint.h>
+	"sha1_alt.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\sha256.h
+	"mbedtls/config.h"
+	<stddef.h>
+	<stdint.h>
+	"sha256_alt.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\sha512.h
+	"mbedtls/config.h"
+	<stddef.h>
+	<stdint.h>
+	"sha512_alt.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\psa\crypto_extra.h
+	"mbedtls/platform_util.h"
+	"crypto_compat.h"
+	<mbedtls/ecp.h>
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\psa\crypto_compat.h
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\ecp.h
+	"mbedtls/config.h"
+	"mbedtls/bignum.h"
+	"ecp_alt.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\psa_util.h
+	"mbedtls/config.h"
+	"psa/crypto.h"
+	"mbedtls/ecp.h"
+	"mbedtls/md.h"
+	"mbedtls/pk.h"
+	"mbedtls/oid.h"
+	<string.h>
+	"mbedtls/ctr_drbg.h"
+	"mbedtls/hmac_drbg.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\pk.h
+	"mbedtls/config.h"
+	"mbedtls/md.h"
+	"mbedtls/rsa.h"
+	"mbedtls/ecp.h"
+	"mbedtls/ecdsa.h"
+	"psa/crypto.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\rsa.h
+	"mbedtls/config.h"
+	"mbedtls/bignum.h"
+	"mbedtls/md.h"
+	"mbedtls/threading.h"
+	"rsa_alt.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\threading.h
+	"mbedtls/config.h"
+	<stdlib.h>
+	<pthread.h>
+	"threading_alt.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\ecdsa.h
+	"mbedtls/config.h"
+	"mbedtls/ecp.h"
+	"mbedtls/md.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\oid.h
+	"mbedtls/config.h"
+	"mbedtls/asn1.h"
+	"mbedtls/pk.h"
+	<stddef.h>
+	"mbedtls/cipher.h"
+	"mbedtls/md.h"
+
+1769531045 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\asn1.h
+	"mbedtls/config.h"
+	<stddef.h>
+	"mbedtls/bignum.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\ctr_drbg.h
+	"mbedtls/config.h"
+	"mbedtls/aes.h"
+	"mbedtls/threading.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\hmac_drbg.h
+	"mbedtls/config.h"
+	"mbedtls/md.h"
+	"mbedtls/threading.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\nist_kw.h
+	"mbedtls/config.h"
+	"mbedtls/cipher.h"
+	"nist_kw_alt.h"
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\cipher_wrap.c
+	"common.h"
+	"mbedtls/cipher_internal.h"
+	"mbedtls/error.h"
+	"mbedtls/chachapoly.h"
+	"mbedtls/aes.h"
+	"mbedtls/arc4.h"
+	"mbedtls/camellia.h"
+	"mbedtls/aria.h"
+	"mbedtls/des.h"
+	"mbedtls/blowfish.h"
+	"mbedtls/chacha20.h"
+	"mbedtls/gcm.h"
+	"mbedtls/ccm.h"
+	"mbedtls/nist_kw.h"
+	<string.h>
+	"mbedtls/platform.h"
+	<stdlib.h>
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\camellia.h
+	"mbedtls/config.h"
+	<stddef.h>
+	<stdint.h>
+	"mbedtls/platform_util.h"
+	"camellia_alt.h"
+
+1769531045 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\aria.h
+	"mbedtls/config.h"
+	<stddef.h>
+	<stdint.h>
+	"mbedtls/platform_util.h"
+	"aria_alt.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\des.h
+	"mbedtls/config.h"
+	<stddef.h>
+	<stdint.h>
+	"des_alt.h"
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\des.c
+	"common.h"
+	"mbedtls/des.h"
+	"mbedtls/platform_util.h"
+	<string.h>
+	"mbedtls/platform.h"
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\gcm.c
+	"common.h"
+	"mbedtls/gcm.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	"mbedtls/aesni.h"
+	"mbedtls/aes.h"
+	"mbedtls/platform.h"
+
+1769531046 source:c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls_main.c
+	<stdio.h>
+	<stdlib.h>
+
+1769531046 source:c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\md.c
+	"common.h"
+	"mbedtls/md.h"
+	"mbedtls/md_internal.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	"mbedtls/md2.h"
+	"mbedtls/md4.h"
+	"mbedtls/md5.h"
+	"mbedtls/ripemd160.h"
+	"mbedtls/sha1.h"
+	"mbedtls/sha256.h"
+	"mbedtls/sha512.h"
+	"mbedtls/platform.h"
+	<stdlib.h>
+	<string.h>
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\md_internal.h
+	"mbedtls/config.h"
+	"mbedtls/md.h"
+
+1769531046 source:c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\md5.c
+	"common.h"
+	"mbedtls/md5.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	"mbedtls/platform.h"
+
+1769531046 source:c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\pkcs5.c
+	"common.h"
+	"mbedtls/pkcs5.h"
+	"mbedtls/error.h"
+	"mbedtls/asn1.h"
+	"mbedtls/cipher.h"
+	"mbedtls/oid.h"
+	<string.h>
+	"mbedtls/platform.h"
+	<stdio.h>
+
+1769531046 c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\mbedtls\pkcs5.h
+	"mbedtls/config.h"
+	"mbedtls/asn1.h"
+	"mbedtls/md.h"
+	<stddef.h>
+	<stdint.h>
+
+1769531046 source:c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\poly1305.c
+	"common.h"
+	"mbedtls/poly1305.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	"mbedtls/platform.h"
+
+1769531046 source:c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\ripemd160.c
+	"common.h"
+	"mbedtls/ripemd160.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	"mbedtls/platform.h"
+
+1769531046 source:c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\sha1.c
+	"common.h"
+	"mbedtls/sha1.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	"mbedtls/platform.h"
+
+1769531046 source:c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\sha256.c
+	"common.h"
+	"mbedtls/sha256.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	"mbedtls/platform.h"
+	<stdlib.h>
+
+1769531046 source:c:\sdk\apps\common\third_party_profile\hilink_protocol\mbedtls_protocol\sha512.c
+	"common.h"
+	"mbedtls/sha512.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	"mbedtls/platform.h"
+	<stdlib.h>
+
+1769531046 source:c:\sdk\apps\common\third_party_profile\jieli\gatt_common\le_gatt_client.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"le_client_demo.h"
+	"le_common.h"
+	"ble_user.h"
+	"le_gatt_common.h"
+	"ble/hci_ll.h"
+	"debug.h"
+
+1769531077 c:\sdk\include_lib\btstack\btstack_task.h
+
+1769531081 c:\sdk\include_lib\system\device\vm.h
+	"ioctl.h"
+	"device/device.h"
+
+1769531045 c:\sdk\apps\common\include\bt_common.h
+	<stdint.h>
+	"app_config.h"
+	"lib_profile_cfg.h"
+	"bt_profile_cfg.h"
+
+1769531056 c:\sdk\apps\spp_and_le\include\lib_profile_cfg.h
+	"app_config.h"
+	"btcontroller_modules.h"
+
+1769531047 c:\sdk\apps\common\third_party_profile\jieli\le_client_demo.h
+	<stdint.h>
+	"btstack/le/att.h"
+
+1769531046 c:\sdk\apps\common\third_party_profile\jieli\gatt_common\le_gatt_common.h
+	<stdint.h>
+	"app_config.h"
+	"le_client_demo.h"
+	"btcontroller_config.h"
+	"ble_config.h"
+
+1769531077 c:\sdk\include_lib\btstack\third_party\common\ble_config.h
+	"typedef.h"
+	"ble_user.h"
+
+1769531046 source:c:\sdk\apps\common\third_party_profile\jieli\gatt_common\le_gatt_common.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+	"btstack/btstack_event.h"
+	"le_gatt_common.h"
+	"debug.h"
+
+1769531077 c:\sdk\include_lib\btstack\third_party\rcsp\jl_rcsp_api.h
+	"typedef.h"
+	"uart.h"
+
+1769531046 source:c:\sdk\apps\common\third_party_profile\jieli\gatt_common\le_gatt_server.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+	"btstack/btstack_event.h"
+	"le_gatt_common.h"
+	"btstack_3th_protocol_user.h"
+	"debug.h"
+
+1769531045 c:\sdk\apps\common\third_party_profile\common\3th_profile_api.h
+	<string.h>
+	<stdint.h>
+	"le_common.h"
+
+1769531077 c:\sdk\include_lib\btstack\third_party\common\btstack_3th_protocol_user.h
+	"spp_config.h"
+	"ble_config.h"
+	"JL_rcsp_api.h"
+	"JL_rcsp_protocol.h"
+	"JL_rcsp_packet.h"
+	"attr.h"
+
+1769531077 c:\sdk\include_lib\btstack\third_party\common\spp_config.h
+	"typedef.h"
+
+1769531077 c:\sdk\include_lib\btstack\third_party\rcsp\jl_rcsp_protocol.h
+	"typedef.h"
+	"JL_rcsp_packet.h"
+
+1769531077 c:\sdk\include_lib\btstack\third_party\rcsp\jl_rcsp_packet.h
+	"typedef.h"
+
+1769531077 c:\sdk\include_lib\btstack\third_party\rcsp\attr.h
+	"typedef.h"
+
+1769531046 source:c:\sdk\apps\common\third_party_profile\jieli\jl_rcsp\bt_trans_data\rcsp_hid_inter.c
+	"app_config.h"
+	"rcsp_hid_inter.h"
+	"usb/device/custom_hid.h"
+	"custom_cfg.h"
+	"JL_rcsp_api.h"
+
+1769531046 source:c:\sdk\apps\common\third_party_profile\jieli\jl_rcsp\rcsp_bluetooth.c
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	"app_config.h"
+	"rcsp_bluetooth.h"
+	"string.h"
+	"JL_rcsp_api.h"
+	"JL_rcsp_protocol.h"
+	"JL_rcsp_packet.h"
+	"btstack/avctp_user.h"
+	"system/timer.h"
+	"app_core.h"
+	"rcsp_user_update.h"
+	"spp_user.h"
+	"rcsp_msg.h"
+	"app_config.h"
+	"app_action.h"
+	"custom_cfg.h"
+	"btstack_3th_protocol_user.h"
+	"update.h"
+	"key_event_deal.h"
+	"fm_emitter/fm_emitter_manage.h"
+	"ui/ui_api.h"
+	"audio_eq.h"
+	"system/init.h"
+
+1769531046 source:c:\sdk\apps\common\third_party_profile\jieli\jl_rcsp\rcsp_updata\rcsp_ch_loader_download.c
+	"update.h"
+	"uart.h"
+	"update_loader_download.h"
+	"system/fs/fs.h"
+	"rcsp_user_update.h"
+	"JL_rcsp_protocol.h"
+	"os/os_error.h"
+	<string.h>
+	"update_tws_new.h"
+	"update_tws.h"
+	"bt_tws.h"
+
+1769531082 c:\sdk\include_lib\update\update_loader_download.h
+	"typedef.h"
+	"system/task.h"
+
+1769531045 c:\sdk\apps\common\include\update_tws_new.h
+	"app_config.h"
+	"system/event.h"
+	"update_loader_download.h"
+
+1769531045 c:\sdk\apps\common\include\update_tws.h
+	"app_config.h"
+	"system/event.h"
+	"update_loader_download.h"
+
+1769531046 source:c:\sdk\apps\common\third_party_profile\jieli\jl_rcsp\rcsp_updata\rcsp_user_update.c
+	"rcsp_user_update.h"
+	"app_config.h"
+	"uart.h"
+	"system/timer.h"
+	"update.h"
+	"custom_cfg.h"
+	"btstack/avctp_user.h"
+	"JL_rcsp_packet.h"
+	"JL_rcsp_protocol.h"
+	"rcsp_bluetooth.h"
+	"update_loader_download.h"
+	"classic/tws_api.h"
+	"btstack_3th_protocol_user.h"
+
+1769531047 source:c:\sdk\apps\common\third_party_profile\jieli\online_db\online_db_deal.c
+	"app_config.h"
+	"app_action.h"
+	"system/includes.h"
+	"string.h"
+	"online_db_deal.h"
+	"circular_buf.h"
+	"bt_common.h"
+	"debug.h"
+
+1769531047 source:c:\sdk\apps\common\third_party_profile\jieli\online_db\spp_online_db.c
+	"app_config.h"
+	"app_action.h"
+	"system/includes.h"
+	"spp_user.h"
+	"string.h"
+	"circular_buf.h"
+	"bt_common.h"
+	"online_db_deal.h"
+	"spp_online_db.h"
+	"app_anctool.h"
+
+1769531047 c:\sdk\apps\common\third_party_profile\jieli\online_db\spp_online_db.h
+	"typedef.h"
+	"bt_common.h"
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\tecent_ll\tecent_ll_demo\ll_task.c
+	"ll_task.h"
+	"os/os_api.h"
+	"ble_qiot_config.h"
+	"ble_qiot_service.h"
+	"ble_qiot_import.h"
+
+1769531045 c:\sdk\apps\common\third_party_profile\tecent_ll\tecent_ll_demo\ll_task.h
+	"typedef.h"
+	"os/os_api.h"
+	"circular_buf.h"
+
+1769531045 c:\sdk\apps\common\third_party_profile\tecent_ll\include\ble_qiot_config.h
+	<printf.h>
+	<stdint.h>
+
+1769531045 c:\sdk\apps\common\third_party_profile\tecent_ll\include\ble_qiot_service.h
+	<stdint.h>
+	"ble_qiot_export.h"
+	"ble_qiot_llsync_data.h"
+	"ble_qiot_template.h"
+
+1769531045 c:\sdk\apps\common\third_party_profile\tecent_ll\include\ble_qiot_export.h
+	"ble_qiot_config.h"
+
+1769531045 c:\sdk\apps\common\third_party_profile\tecent_ll\include\ble_qiot_llsync_data.h
+	<stdint.h>
+	<ble_qiot_export.h>
+
+1769531045 c:\sdk\apps\common\third_party_profile\tecent_ll\include\ble_qiot_template.h
+	<stdint.h>
+
+1769531045 c:\sdk\apps\common\third_party_profile\tecent_ll\include\ble_qiot_import.h
+	"ble_qiot_export.h"
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\tecent_ll\tecent_protocol\ble_qiot_import.c
+	"ble_qiot_import.h"
+	"vm.h"
+	"le_common.h"
+	"dual_bank_updata_api.h"
+	"debug.h"
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\tecent_ll\tecent_protocol\ble_qiot_llsync_data.c
+	<stdlib.h>
+	<string.h>
+	"ble_qiot_config.h"
+	"ble_qiot_export.h"
+	"ble_qiot_import.h"
+	"ble_qiot_common.h"
+	"ble_qiot_llsync_event.h"
+	"ble_qiot_utils_base64.h"
+	"ble_qiot_log.h"
+	"ble_qiot_param_check.h"
+	"ble_qiot_service.h"
+	"ble_qiot_template.h"
+	"ble_qiot_llsync_data.h"
+
+1769531045 c:\sdk\apps\common\third_party_profile\tecent_ll\include\ble_qiot_common.h
+
+1769531045 c:\sdk\apps\common\third_party_profile\tecent_ll\include\ble_qiot_llsync_event.h
+	<stdint.h>
+	"ble_qiot_config.h"
+	"ble_qiot_export.h"
+
+1769531045 c:\sdk\apps\common\third_party_profile\tecent_ll\include\ble_qiot_utils_base64.h
+	<stdlib.h>
+	<stdint.h>
+	"ble_qiot_export.h"
+
+1769531045 c:\sdk\apps\common\third_party_profile\tecent_ll\include\ble_qiot_log.h
+	"ble_qiot_config.h"
+
+1769531045 c:\sdk\apps\common\third_party_profile\tecent_ll\include\ble_qiot_param_check.h
+	"ble_qiot_log.h"
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\tecent_ll\tecent_protocol\ble_qiot_llsync_device.c
+	"ble_qiot_config.h"
+	<stdint.h>
+	<printf.h>
+	<string.h>
+	"ble_qiot_common.h"
+	"ble_qiot_config.h"
+	"ble_qiot_export.h"
+	"ble_qiot_hmac.h"
+	"ble_qiot_import.h"
+	"ble_qiot_log.h"
+	"ble_qiot_param_check.h"
+	"ble_qiot_utils_base64.h"
+	"ble_qiot_md5.h"
+	"ble_qiot_llsync_device.h"
+
+1769531045 c:\sdk\apps\common\third_party_profile\tecent_ll\include\ble_qiot_hmac.h
+	<string.h>
+
+1769531045 c:\sdk\apps\common\third_party_profile\tecent_ll\include\ble_qiot_md5.h
+	<stdint.h>
+
+1769531045 c:\sdk\apps\common\third_party_profile\tecent_ll\include\ble_qiot_llsync_device.h
+	<stdint.h>
+	"ble_qiot_common.h"
+	"ble_qiot_export.h"
+	"ble_qiot_hmac.h"
+	"ble_qiot_llsync_event.h"
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\tecent_ll\tecent_protocol\ble_qiot_llsync_event.c
+	"ble_qiot_config.h"
+	<string.h>
+	"ble_qiot_import.h"
+	"ble_qiot_common.h"
+	"ble_qiot_param_check.h"
+	"ble_qiot_service.h"
+	"ble_qiot_template.h"
+	"ble_qiot_llsync_device.h"
+	"ble_qiot_llsync_event.h"
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\tecent_ll\tecent_protocol\ble_qiot_llsync_ota.c
+	"ble_qiot_config.h"
+	<stdlib.h>
+	<string.h>
+	"ble_qiot_export.h"
+	"ble_qiot_import.h"
+	"ble_qiot_common.h"
+	"ble_qiot_llsync_data.h"
+	"ble_qiot_llsync_event.h"
+	"ble_qiot_utils_base64.h"
+	"ble_qiot_crc.h"
+	"ble_qiot_log.h"
+	"ble_qiot_param_check.h"
+	"ble_qiot_service.h"
+	"ble_qiot_template.h"
+	"ble_qiot_llsync_ota.h"
+	"dual_bank_updata_api.h"
+	"timer.h"
+	"os/os_api.h"
+	"update_loader_download.h"
+	"app_config.h"
+
+1769531045 c:\sdk\apps\common\third_party_profile\tecent_ll\include\ble_qiot_crc.h
+	<printf.h>
+	<stdint.h>
+
+1769531045 c:\sdk\apps\common\third_party_profile\tecent_ll\include\ble_qiot_llsync_ota.h
+	<stdint.h>
+	"ble_qiot_config.h"
+	"ble_qiot_export.h"
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\tecent_ll\tecent_protocol\ble_qiot_service.c
+	<printf.h>
+	"ble_qiot_config.h"
+	"ble_qiot_export.h"
+	"ble_qiot_import.h"
+	"ble_qiot_llsync_data.h"
+	"ble_qiot_llsync_device.h"
+	"ble_qiot_llsync_event.h"
+	"ble_qiot_log.h"
+	"ble_qiot_llsync_ota.h"
+	"ble_qiot_param_check.h"
+	"ble_qiot_service.h"
+	"ble_qiot_template.h"
+	"ble_qiot_service.h"
+	"ble_qiot_crc.h"
+	"asm/clock.h"
+	"app_config.h"
+	"update_loader_download.h"
+	"os/os_api.h"
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\tecent_ll\tecent_protocol\ble_qiot_template.c
+	"ble_qiot_template.h"
+	<stdio.h>
+	<string.h>
+	"ble_qiot_export.h"
+	"ble_qiot_common.h"
+	"ble_qiot_param_check.h"
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\tecent_ll\tecent_protocol\ble_qiot_utils_base64.c
+	"ble_qiot_utils_base64.h"
+	"ble_qiot_export.h"
+	<stdint.h>
+	<stdlib.h>
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\tecent_ll\tecent_protocol\ble_qiot_utils_crc.c
+	"ble_qiot_crc.h"
+	<printf.h>
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\tecent_ll\tecent_protocol\ble_qiot_utils_hmac.c
+	<stdint.h>
+	"ble_qiot_log.h"
+	"ble_qiot_sha1.h"
+	"ble_qiot_hmac.h"
+
+1769531045 c:\sdk\apps\common\third_party_profile\tecent_ll\include\ble_qiot_sha1.h
+	<stdint.h>
+	<stddef.h>
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\tecent_ll\tecent_protocol\ble_qiot_utils_log.c
+	"ble_qiot_log.h"
+	<stdint.h>
+	<printf.h>
+	<string.h>
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\tecent_ll\tecent_protocol\ble_qiot_utils_md5.c
+	"ble_qiot_md5.h"
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+
+1769531045 source:c:\sdk\apps\common\third_party_profile\tecent_ll\tecent_protocol\ble_qiot_utils_sha1.c
+	"ble_qiot_sha1.h"
+	<stdlib.h>
+	<string.h>
+
+1769531049 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\app\demo\tuya_ble_app_demo.c
+	"tuya_ble_stdlib.h"
+	"tuya_ble_type.h"
+	"tuya_ble_heap.h"
+	"tuya_ble_mem.h"
+	"tuya_ble_api.h"
+	"tuya_ble_port.h"
+	"tuya_ble_main.h"
+	"tuya_ble_secure.h"
+	"tuya_ble_data_handler.h"
+	"tuya_ble_storage.h"
+	"tuya_ble_sdk_version.h"
+	"tuya_ble_utils.h"
+	"tuya_ble_event.h"
+	"tuya_ble_app_demo.h"
+	"tuya_ble_log.h"
+	"tuya_ota.h"
+	"system/generic/printf.h"
+	"log.h"
+	"system/includes.h"
+
+1769531050 c:\sdk\apps\common\third_party_profile\tuya_protocol\port\tuya_ble_stdlib.h
+	"cpu.h"
+	<stdint.h>
+	<string.h>
+	<stdlib.h>
+	<stddef.h>
+
+1769531050 c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\include\tuya_ble_type.h
+	"tuya_ble_stdlib.h"
+
+1769531050 c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\include\tuya_ble_heap.h
+	"tuya_ble_stdlib.h"
+
+1769531050 c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\include\tuya_ble_mem.h
+	"tuya_ble_type.h"
+
+1769531050 c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\include\tuya_ble_api.h
+	"tuya_ble_type.h"
+	"tuya_ble_internal_config.h"
+	"tuya_ble_port.h"
+
+1769531050 c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\include\tuya_ble_internal_config.h
+	"tuya_ble_config.h"
+	"tuya_ble_port.h"
+
+1769531050 c:\sdk\apps\common\third_party_profile\tuya_protocol\tuya_ble_config.h
+
+1769531049 c:\sdk\apps\common\third_party_profile\tuya_protocol\port\tuya_ble_port.h
+	"tuya_ble_stdlib.h"
+	"tuya_ble_type.h"
+	"tuya_ble_config.h"
+	"tuya_ble_port_peripheral.h"
+
+1769531050 c:\sdk\apps\common\third_party_profile\tuya_protocol\port\tuya_ble_port_peripheral.h
+	"tuya_ble_stdlib.h"
+	"tuya_ble_type.h"
+
+1769531050 c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\include\tuya_ble_main.h
+	"tuya_ble_type.h"
+	"tuya_ble_internal_config.h"
+
+1769531050 c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\lib\tuya_ble_secure.h
+	"tuya_ble_type.h"
+
+1769531050 c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\include\tuya_ble_data_handler.h
+	"tuya_ble_stdlib.h"
+	"tuya_ble_internal_config.h"
+
+1769531050 c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\include\tuya_ble_storage.h
+	"tuya_ble_type.h"
+	"tuya_ble_internal_config.h"
+
+1769531050 c:\sdk\apps\common\third_party_profile\tuya_protocol\tuya_ble_sdk_version.h
+
+1769531050 c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\include\tuya_ble_utils.h
+	"tuya_ble_stdlib.h"
+
+1769531050 c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\include\tuya_ble_event.h
+	"tuya_ble_stdlib.h"
+	"tuya_ble_type.h"
+
+1769531049 c:\sdk\apps\common\third_party_profile\tuya_protocol\app\demo\tuya_ble_app_demo.h
+
+1769531050 c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\include\tuya_ble_log.h
+	"tuya_ble_stdlib.h"
+	"tuya_ble_internal_config.h"
+	"tuya_ble_log_internal.h"
+
+1769531050 c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\include\tuya_ble_log_internal.h
+	"tuya_ble_port.h"
+	"tuya_ble_internal_config.h"
+
+1769531049 c:\sdk\apps\common\third_party_profile\tuya_protocol\app\demo\tuya_ota.h
+	"typedef.h"
+
+1769531049 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\app\demo\tuya_ota.c
+	"tuya_ota.h"
+	"tuya_ble_type.h"
+	"tuya_ble_app_demo.h"
+	"dual_bank_updata_api.h"
+	"timer.h"
+	"asm/clock.h"
+
+1769531049 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\app\product_test\tuya_ble_app_production_test.c
+	"tuya_ble_stdlib.h"
+	"tuya_ble_type.h"
+	"tuya_ble_heap.h"
+	"tuya_ble_mem.h"
+	"tuya_ble_api.h"
+	"tuya_ble_port.h"
+	"tuya_ble_main.h"
+	"tuya_ble_internal_config.h"
+	"tuya_ble_data_handler.h"
+	"tuya_ble_mutli_tsf_protocol.h"
+	"tuya_ble_utils.h"
+	"tuya_ble_secure.h"
+	"tuya_ble_main.h"
+	"tuya_ble_storage.h"
+	"tuya_ble_app_production_test.h"
+	"tuya_ble_log.h"
+	"tuya_ble_api.h"
+	"tuya_ble_utils.h"
+	"tuya_ecc.h"
+	"cJSON.h"
+
+1769531050 c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\include\tuya_ble_mutli_tsf_protocol.h
+	"tuya_ble_stdlib.h"
+	"tuya_ble_config.h"
+
+1769531049 c:\sdk\apps\common\third_party_profile\tuya_protocol\app\product_test\tuya_ble_app_production_test.h
+	<stdint.h>
+	"tuya_ble_internal_config.h"
+
+1769531049 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\app\uart_common\tuya_ble_app_uart_common_handler.c
+	"tuya_ble_stdlib.h"
+	"tuya_ble_type.h"
+	"tuya_ble_heap.h"
+	"tuya_ble_mem.h"
+	"tuya_ble_api.h"
+	"tuya_ble_port.h"
+	"tuya_ble_main.h"
+	"tuya_ble_internal_config.h"
+	"tuya_ble_data_handler.h"
+	"tuya_ble_mutli_tsf_protocol.h"
+	"tuya_ble_utils.h"
+	"tuya_ble_secure.h"
+	"tuya_ble_main.h"
+	"tuya_ble_storage.h"
+	"tuya_ble_app_uart_common_handler.h"
+	"tuya_ble_log.h"
+
+1769531049 c:\sdk\apps\common\third_party_profile\tuya_protocol\app\uart_common\tuya_ble_app_uart_common_handler.h
+	<stdint.h>
+	"tuya_ble_internal_config.h"
+
+1769531049 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\extern_components\mbedtls\aes.c
+	"aes.h"
+	"app_config.h"
+	<string.h>
+	"mbedtls/padlock.h"
+	"mbedtls/aesni.h"
+	"mbedtls/platform.h"
+
+1769531049 c:\sdk\apps\common\third_party_profile\tuya_protocol\extern_components\mbedtls\aes.h
+	<stddef.h>
+	<stdint.h>
+	"aes_alt.h"
+
+1769531049 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\extern_components\mbedtls\ccm.c
+	<string.h>
+	"aes.h"
+	"ccm.h"
+	"cpu.h"
+	"app_config.h"
+
+1769531049 c:\sdk\apps\common\third_party_profile\tuya_protocol\extern_components\mbedtls\ccm.h
+
+1769531049 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\extern_components\mbedtls\hmac.c
+	"sha1.h"
+	"sha256.h"
+	"hmac.h"
+	"app_config.h"
+
+1769531049 c:\sdk\apps\common\third_party_profile\tuya_protocol\extern_components\mbedtls\sha1.h
+	<stddef.h>
+	<stdint.h>
+	"sha1_alt.h"
+
+1769531049 c:\sdk\apps\common\third_party_profile\tuya_protocol\extern_components\mbedtls\sha256.h
+	<stddef.h>
+	<stdint.h>
+	"sha256_alt.h"
+
+1769531049 c:\sdk\apps\common\third_party_profile\tuya_protocol\extern_components\mbedtls\hmac.h
+	<string.h>
+	<stddef.h>
+	<stdint.h>
+
+1769531049 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\extern_components\mbedtls\md5.c
+	"app_config.h"
+	"md5.h"
+	<string.h>
+
+1769531049 c:\sdk\apps\common\third_party_profile\tuya_protocol\extern_components\mbedtls\md5.h
+	<stddef.h>
+	<stdint.h>
+	"md5_alt.h"
+
+1769531049 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\extern_components\mbedtls\sha1.c
+	"app_config.h"
+	"sha1.h"
+	<string.h>
+
+1769531049 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\extern_components\mbedtls\sha256.c
+	"app_config.h"
+	"sha256.h"
+	<string.h>
+	<stdlib.h>
+
+1769531049 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\port\tuya_ble_port.c
+	"tuya_ble_port.h"
+	"tuya_ble_type.h"
+
+1769531049 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\port\tuya_ble_port_jl.c
+	"tuya_ble_port.h"
+	"tuya_ble_main.h"
+	"tuya_ble_log.h"
+	"le_common.h"
+	"bt_common.h"
+	"cpu.h"
+	"timer.h"
+	"os/os_api.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"app_main.h"
+	"update.h"
+	"update_loader_download.h"
+	"app_charge.h"
+	"app_power_manage.h"
+	"user_cfg.h"
+	"aes.h"
+	"md5.h"
+
+1769531056 c:\sdk\apps\spp_and_le\include\app_power_manage.h
+	"typedef.h"
+	"system/event.h"
+
+1769531050 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\port\tuya_ble_port_peripheral.c
+	"tuya_ble_port.h"
+	"tuya_ble_type.h"
+
+1769531050 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\src\tuya_ble_api.c
+	"tuya_ble_stdlib.h"
+	"tuya_ble_api.h"
+	"tuya_ble_port.h"
+	"tuya_ble_type.h"
+	"tuya_ble_main.h"
+	"tuya_ble_mem.h"
+	"tuya_ble_log.h"
+	"tuya_ble_data_handler.h"
+	"tuya_ble_internal_config.h"
+	"tuya_ble_mutli_tsf_protocol.h"
+	"tuya_ble_storage.h"
+	"tuya_ble_utils.h"
+	"tuya_ble_sdk_version.h"
+	"tuya_ble_gatt_send_queue.h"
+	"tuya_ble_event.h"
+	"tuya_ble_app_production_test.h"
+	"cJSON.h"
+
+1769531050 c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\include\tuya_ble_gatt_send_queue.h
+	"tuya_ble_stdlib.h"
+	"tuya_ble_type.h"
+	"tuya_ble_queue.h"
+
+1769531050 c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\include\tuya_ble_queue.h
+	"tuya_ble_stdlib.h"
+	"tuya_ble_type.h"
+
+1769531050 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\src\tuya_ble_bulk_data.c
+	"tuya_ble_bulk_data.h"
+	"tuya_ble_stdlib.h"
+	"tuya_ble_type.h"
+	"tuya_ble_heap.h"
+	"tuya_ble_mem.h"
+	"tuya_ble_api.h"
+	"tuya_ble_port.h"
+	"tuya_ble_main.h"
+	"tuya_ble_internal_config.h"
+	"tuya_ble_data_handler.h"
+	"tuya_ble_mutli_tsf_protocol.h"
+	"tuya_ble_utils.h"
+	"tuya_ble_secure.h"
+	"tuya_ble_main.h"
+	"tuya_ble_storage.h"
+	"tuya_ble_unix_time.h"
+	"tuya_ble_log.h"
+	"tuya_ble_gatt_send_queue.h"
+
+1769531050 c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\include\tuya_ble_bulk_data.h
+	"tuya_ble_stdlib.h"
+	"tuya_ble_type.h"
+
+1769531050 c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\include\tuya_ble_unix_time.h
+	"tuya_ble_stdlib.h"
+
+1769531050 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\src\tuya_ble_data_handler.c
+	"tuya_ble_stdlib.h"
+	"tuya_ble_type.h"
+	"tuya_ble_heap.h"
+	"tuya_ble_mem.h"
+	"tuya_ble_api.h"
+	"tuya_ble_port.h"
+	"tuya_ble_main.h"
+	"tuya_ble_internal_config.h"
+	"tuya_ble_data_handler.h"
+	"tuya_ble_mutli_tsf_protocol.h"
+	"tuya_ble_utils.h"
+	"tuya_ble_secure.h"
+	"tuya_ble_main.h"
+	"tuya_ble_storage.h"
+	"tuya_ble_unix_time.h"
+	"tuya_ble_log.h"
+	"tuya_ble_gatt_send_queue.h"
+	"tuya_ble_bulk_data.h"
+	"tuya_ble_app_production_test.h"
+	"tuya_ble_app_uart_common_handler.h"
+	"tuya_ble_feature_weather.h"
+
+1769531050 c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\include\tuya_ble_feature_weather.h
+	"tuya_ble_stdlib.h"
+	"tuya_ble_type.h"
+
+1769531050 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\src\tuya_ble_event.c
+	"tuya_ble_stdlib.h"
+	"tuya_ble_type.h"
+	"tuya_ble_heap.h"
+	"tuya_ble_mem.h"
+	"tuya_ble_api.h"
+	"tuya_ble_port.h"
+	"tuya_ble_main.h"
+	"tuya_ble_secure.h"
+	"tuya_ble_data_handler.h"
+	"tuya_ble_storage.h"
+	"tuya_ble_sdk_version.h"
+	"tuya_ble_utils.h"
+	"tuya_ble_event.h"
+	"tuya_ble_log.h"
+
+1769531050 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\src\tuya_ble_event_handler.c
+	"tuya_ble_stdlib.h"
+	"tuya_ble_type.h"
+	"tuya_ble_heap.h"
+	"tuya_ble_mem.h"
+	"tuya_ble_api.h"
+	"tuya_ble_port.h"
+	"tuya_ble_main.h"
+	"tuya_ble_secure.h"
+	"tuya_ble_data_handler.h"
+	"tuya_ble_storage.h"
+	"tuya_ble_sdk_version.h"
+	"tuya_ble_event.h"
+	"tuya_ble_utils.h"
+	"tuya_ble_app_uart_common_handler.h"
+	"tuya_ble_app_production_test.h"
+	"tuya_ble_log.h"
+	"tuya_ble_event_handler.h"
+
+1769531050 c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\lib\tuya_ble_event_handler.h
+	"tuya_ble_type.h"
+
+1769531050 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\src\tuya_ble_event_handler_weak.c
+	"tuya_ble_stdlib.h"
+	"tuya_ble_type.h"
+	"tuya_ble_event_handler.h"
+
+1769531050 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\src\tuya_ble_feature_weather.c
+	"tuya_ble_stdlib.h"
+	"tuya_ble_type.h"
+	"tuya_ble_heap.h"
+	"tuya_ble_mem.h"
+	"tuya_ble_api.h"
+	"tuya_ble_port.h"
+	"tuya_ble_main.h"
+	"tuya_ble_internal_config.h"
+	"tuya_ble_feature_weather.h"
+	"tuya_ble_data_handler.h"
+	"tuya_ble_mutli_tsf_protocol.h"
+	"tuya_ble_utils.h"
+	"tuya_ble_secure.h"
+	"tuya_ble_main.h"
+	"tuya_ble_storage.h"
+	"tuya_ble_unix_time.h"
+	"tuya_ble_log.h"
+	"tuya_ble_gatt_send_queue.h"
+
+1769531050 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\src\tuya_ble_gatt_send_queue.c
+	"tuya_ble_stdlib.h"
+	"tuya_ble_gatt_send_queue.h"
+	"tuya_ble_type.h"
+	"tuya_ble_config.h"
+	"tuya_ble_port.h"
+	"tuya_ble_mem.h"
+	"tuya_ble_main.h"
+	"tuya_ble_log.h"
+
+1769531050 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\src\tuya_ble_heap.c
+	"tuya_ble_stdlib.h"
+	"tuya_ble_heap.h"
+	"tuya_ble_port.h"
+	"tuya_ble_internal_config.h"
+
+1769531050 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\src\tuya_ble_main.c
+	"tuya_ble_stdlib.h"
+	"tuya_ble_type.h"
+	"tuya_ble_heap.h"
+	"tuya_ble_mem.h"
+	"tuya_ble_api.h"
+	"tuya_ble_port.h"
+	"tuya_ble_main.h"
+	"tuya_ble_secure.h"
+	"tuya_ble_data_handler.h"
+	"tuya_ble_storage.h"
+	"tuya_ble_sdk_version.h"
+	"tuya_ble_event.h"
+	"tuya_ble_utils.h"
+	"tuya_ble_app_uart_common_handler.h"
+	"tuya_ble_app_production_test.h"
+	"tuya_ble_log.h"
+	"tuya_ble_internal_config.h"
+
+1769531050 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\src\tuya_ble_mem.c
+	"tuya_ble_stdlib.h"
+	"tuya_ble_type.h"
+	"tuya_ble_heap.h"
+	"tuya_ble_mem.h"
+	"tuya_ble_internal_config.h"
+
+1769531050 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\src\tuya_ble_mutli_tsf_protocol.c
+	"tuya_ble_stdlib.h"
+	"tuya_ble_type.h"
+	"tuya_ble_mem.h"
+	"tuya_ble_mutli_tsf_protocol.h"
+
+1769531050 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\src\tuya_ble_queue.c
+	"tuya_ble_stdlib.h"
+	"tuya_ble_queue.h"
+	"tuya_ble_type.h"
+
+1769531050 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\src\tuya_ble_storage.c
+	"tuya_ble_stdlib.h"
+	"tuya_ble_api.h"
+	"tuya_ble_port.h"
+	"tuya_ble_type.h"
+	"tuya_ble_main.h"
+	"tuya_ble_mem.h"
+	"tuya_ble_data_handler.h"
+	"tuya_ble_internal_config.h"
+	"tuya_ble_mutli_tsf_protocol.h"
+	"tuya_ble_storage.h"
+	"tuya_ble_utils.h"
+	"tuya_ble_log.h"
+
+1769531050 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\src\tuya_ble_unix_time.c
+	"tuya_ble_stdlib.h"
+	"tuya_ble_unix_time.h"
+
+1769531050 source:c:\sdk\apps\common\third_party_profile\tuya_protocol\sdk\src\tuya_ble_utils.c
+	"tuya_ble_stdlib.h"
+	"tuya_ble_utils.h"
+	"tuya_ble_port.h"
+	"tuya_ble_mem.h"
+
+1769531050 source:c:\sdk\apps\common\update\testbox_update.c
+	"update_loader_download.h"
+	"update.h"
+	"btctrler_task.h"
+	"app_config.h"
+	"asm/power/p33.h"
+	"asm/power_interface.h"
+	"lib_profile_cfg.h"
+	"bt_profile_cfg.h"
+	"smartbox/smartbox_task.h"
+	"system/debug.h"
+
+1769531050 source:c:\sdk\apps\common\update\uart_update.c
+	"app_config.h"
+	"typedef.h"
+	"update_loader_download.h"
+	"os/os_api.h"
+	"system/task.h"
+	"update.h"
+	"gpio.h"
+	"uart_update.h"
+	"asm/uart_dev.h"
+	"asm/clock.h"
+	"debug.h"
+	"asm/power_interface.h"
+
+1769531082 c:\sdk\include_lib\update\uart_update.h
+	"typedef.h"
+
+1769531050 source:c:\sdk\apps\common\update\uart_update_master.c
+	"app_config.h"
+	"typedef.h"
+	"update_loader_download.h"
+	"os/os_api.h"
+	"system/task.h"
+	"update.h"
+	"gpio.h"
+	"uart_update.h"
+	"asm/uart_dev.h"
+	"asm/clock.h"
+	"timer.h"
+	"system/fs/fs.h"
+	"debug.h"
+
+1769531050 source:c:\sdk\apps\common\update\update.c
+	"update.h"
+	"update_loader_download.h"
+	"asm/crc16.h"
+	"asm/wdt.h"
+	"os/os_api.h"
+	"app_config.h"
+	"cpu.h"
+	"syscfg_id.h"
+	"btcontroller_modules.h"
+	"system/includes.h"
+	"uart_update.h"
+	"dual_bank_updata_api.h"
+	"btstack/avctp_user.h"
+	"ui/ui_api.h"
+	"rcsp_user_update.h"
+	"rcsp_adv_user_update.h"
+	"tone_player.h"
+	"audio_config.h"
+	"asm/pwm_led.h"
+	"custom_cfg.h"
+	"system/debug.h"
+	"smartbox_extra_flash_opt.h"
+
+1770706813 source:c:\sdk\apps\spp_and_le\app_main.c
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"app_main.h"
+	"update.h"
+	"update_loader_download.h"
+	"app_charge.h"
+	"app_power_manage.h"
+	"asm/charge.h"
+	"jl_kws/jl_kws_api.h"
+	"debug.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\config\lib_btctrler_config.c
+	"app_config.h"
+	"system/includes.h"
+	"btcontroller_config.h"
+	"bt_common.h"
+	"le_common.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\config\lib_btstack_config.c
+	"app_config.h"
+	"system/includes.h"
+	"btcontroller_config.h"
+	"bt_common.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\config\lib_driver_config.c
+	"app_config.h"
+	"system/includes.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\config\lib_media_config.c
+	"app_config.h"
+	"system/includes.h"
+	"media/includes.h"
+	"audio/demo/audio_decoder_test.c"
+	"audio/demo/audio_encoder_test.c"
+
+1769531044 c:\sdk\apps\common\audio\demo\audio_decoder_test.c
+	"media/includes.h"
+
+1769531044 c:\sdk\apps\common\audio\demo\audio_encoder_test.c
+	"media/includes.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\config\lib_profile_config.c
+	"system/includes.h"
+	"app_config.h"
+	"btcontroller_config.h"
+	"btstack/bt_profile_config.h"
+	"bt_common.h"
+	"btstack/avctp_user.h"
+	"debug.h"
+
+1769531077 c:\sdk\include_lib\btstack\bt_profile_config.h
+
+1769531055 source:c:\sdk\apps\spp_and_le\config\lib_system_config.c
+	"app_config.h"
+	"system/includes.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\config\lib_update_config.c
+	"app_config.h"
+	"system/includes.h"
+	"update_loader_download.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\config\log_config.c
+	"system/includes.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\at_char_com\app_at_char_com.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"le_client_demo.h"
+	"app_charge.h"
+	"app_power_manage.h"
+	"app_comm_bt.h"
+	"ble_at_char_client.h"
+	"debug.h"
+
+1769531081 c:\sdk\include_lib\system\config\config_transport.h
+	"typedef.h"
+
+1769531056 c:\sdk\apps\spp_and_le\include\app_comm_bt.h
+	"typedef.h"
+	"system/event.h"
+	"btstack_typedef.h"
+
+1769531055 c:\sdk\apps\spp_and_le\examples\at_char_com\ble_at_char_client.h
+	<stdint.h>
+	"at.h"
+
+1769531056 c:\sdk\apps\spp_and_le\include\at.h
+	"typedef.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\at_char_com\at_char_cmds.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"at.h"
+	"le/ble_api.h"
+	"le_common.h"
+	"ble_at_char_com.h"
+	"ble_at_char_client.h"
+	"app_power_manage.h"
+	"debug.h"
+
+1769531055 c:\sdk\apps\spp_and_le\examples\at_char_com\ble_at_char_com.h
+	<stdint.h>
+	"bt_common.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\at_char_com\at_char_uart.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"at.h"
+	"debug.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\at_char_com\ble_at_char_client.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"le_common.h"
+	"ble_user.h"
+	"le_client_demo.h"
+	"ble_at_char_client.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\at_char_com\ble_at_char_com.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"at.h"
+	"ble_at_char_com.h"
+	"ble_at_char_profile.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+
+1769531055 c:\sdk\apps\spp_and_le\examples\at_char_com\ble_at_char_profile.h
+	<stdint.h>
+	"bt_common.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\at_com\app_at_com.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"le_client_demo.h"
+	"app_charge.h"
+	"app_power_manage.h"
+	"app_comm_bt.h"
+	"ble_at_client.h"
+	"debug.h"
+
+1769531055 c:\sdk\apps\spp_and_le\examples\at_com\ble_at_client.h
+	<stdint.h>
+	"at.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\at_com\at_cmds.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"at.h"
+	"spp_at_trans.h"
+	"ble_at_com.h"
+	"ble_at_client.h"
+	"app_power_manage.h"
+	"debug.h"
+
+1769531055 c:\sdk\apps\spp_and_le\examples\at_com\spp_at_trans.h
+	"typedef.h"
+	"bt_common.h"
+
+1769531055 c:\sdk\apps\spp_and_le\examples\at_com\ble_at_com.h
+	<stdint.h>
+	"bt_common.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\at_com\at_uart.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"at.h"
+	"debug.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\at_com\ble_at_client.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"le_common.h"
+	"ble_user.h"
+	"le_client_demo.h"
+	"ble_at_client.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\at_com\ble_at_com.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"at.h"
+	"ble_at_com.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+	"ble_at_profile.h"
+
+1769531055 c:\sdk\apps\spp_and_le\examples\at_com\ble_at_profile.h
+	<stdint.h>
+	"bt_common.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\at_com\spp_at_trans.c
+	"app_config.h"
+	"app_action.h"
+	"system/includes.h"
+	"spp_user.h"
+	"string.h"
+	"circular_buf.h"
+	"bt_common.h"
+	"btstack/avctp_user.h"
+	"spp_at_trans.h"
+	"at.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\ble_beacon\app_beacon.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"rcsp_user_update.h"
+	"app_charge.h"
+	"app_chargestore.h"
+	"app_power_manage.h"
+	"app_comm_bt.h"
+	"debug.h"
+
+1769531056 c:\sdk\apps\spp_and_le\include\app_chargestore.h
+	"typedef.h"
+	"system/event.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\ble_beacon\ble_beacon.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+	"ble_beacon.h"
+
+1769531055 c:\sdk\apps\spp_and_le\examples\ble_beacon\ble_beacon.h
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/le/ble_api.h"
+	"btstack/bluetooth.h"
+	"btstack//le/le_user.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+
+1769531077 c:\sdk\include_lib\btstack\\le\le_user.h
+	"typedef.h"
+	"btstack/btstack_typedef.h"
+	"ble_api.h"
+
+1769531077 c:\sdk\include_lib\btstack\\le\ble_api.h
+	"typedef.h"
+	"btstack/btstack_typedef.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\ble_central\app_central.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"rcsp_user_update.h"
+	"app_charge.h"
+	"app_chargestore.h"
+	"app_power_manage.h"
+	"le_client_demo.h"
+	"app_comm_bt.h"
+	"debug.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\ble_central\ble_central.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+	"btstack/btstack_event.h"
+	"gatt_common/le_gatt_common.h"
+	"ble_central.h"
+
+1769531055 c:\sdk\apps\spp_and_le\examples\ble_central\ble_central.h
+	<stdint.h>
+	"app_config.h"
+	"gatt_common/le_gatt_common.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\ble_central\ble_central_server.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+	"btstack/btstack_event.h"
+	"gatt_common/le_gatt_common.h"
+	"ble_central.h"
+	"ble_central_server.h"
+
+1769531055 c:\sdk\apps\spp_and_le\examples\ble_central\ble_central_server.h
+	<stdint.h>
+	"app_config.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\conn_24g\app_conn_24g.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"rcsp_user_update.h"
+	"app_charge.h"
+	"app_power_manage.h"
+	"le_client_demo.h"
+	"usb/device/hid.h"
+	"app_comm_bt.h"
+	"ble_24g_profile.h"
+	"le_gatt_common.h"
+	"le_common.h"
+	"debug.h"
+
+1769531055 c:\sdk\apps\spp_and_le\examples\conn_24g\ble_24g_profile.h
+	<stdint.h>
+	"app_config.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\conn_24g\ble_24g_client.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+	"btstack/btstack_event.h"
+	"gatt_common/le_gatt_common.h"
+	"ble_24g_profile.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\conn_24g\ble_24g_server.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+	"btstack/btstack_event.h"
+	"gatt_common/le_gatt_common.h"
+	"ble_24g_profile.h"
+
+1770795062 source:c:\sdk\apps\spp_and_le\examples\dongle\app_dongle.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"config/config_transport.h"
+	"rcsp_user_update.h"
+	"usb/device/hid.h"
+	"debug.h"
+	"led.h"
+	"battery_charge.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\dongle\ble_dg_central.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+	"btstack/btstack_event.h"
+	"gatt_common/le_gatt_common.h"
+	"usb/usb_phy.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\dongle\edr_hid_user.c
+	"app_config.h"
+	"app_action.h"
+	"system/includes.h"
+	"spp_user.h"
+	"string.h"
+	"circular_buf.h"
+	"bt_common.h"
+	"btstack/avctp_user.h"
+	"circular_buf.h"
+	"edr_hid_user.h"
+	"standard_hid.h"
+	"app_comm_bt.h"
+
+1769531055 c:\sdk\apps\spp_and_le\examples\dongle\edr_hid_user.h
+	"typedef.h"
+	"bt_common.h"
+
+1769531045 c:\sdk\apps\common\include\standard_hid.h
+	"typedef.h"
+	"usb/device/hid.h"
+
+1770453496 source:c:\sdk\apps\spp_and_le\examples\dongle\ota_dg_central.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"rcsp_user_update.h"
+	"app_charge.h"
+	"app_power_manage.h"
+	"le_client_demo.h"
+	"usb/device/hid.h"
+	"app_comm_bt.h"
+	"le_gatt_common.h"
+
+1770794453 source:c:\sdk\apps\spp_and_le\examples\dongle\usb_hid_devices.c
+	"os/os_api.h"
+	"app_config.h"
+	"usb/device/usb_stack.h"
+	"usb/device/hid.h"
+	"usb_config.h"
+	"debug.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\dongle\usb_second_hid_devices.c
+	"os/os_api.h"
+	"app_config.h"
+	"usb/device/usb_stack.h"
+	"usb/device/hid.h"
+	"usb_config.h"
+	"debug.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\findmy\app_fmy.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"rcsp_user_update.h"
+	"app_charge.h"
+	"app_chargestore.h"
+	"app_power_manage.h"
+	"app_comm_bt.h"
+	"ble_fmy_sensor_uart.h"
+	"ble_fmy.h"
+	"debug.h"
+
+1769531055 c:\sdk\apps\spp_and_le\examples\findmy\ble_fmy_sensor_uart.h
+
+1769531055 c:\sdk\apps\spp_and_le\examples\findmy\ble_fmy.h
+	<stdint.h>
+	"app_config.h"
+	"gatt_common/le_gatt_common.h"
+	"third_party/fmna/fmna_api.h"
+
+1769531077 c:\sdk\include_lib\btstack\third_party\fmna\fmna_api.h
+	<stdint.h>
+	"bluetooth.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\findmy\ble_fmy.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"app_main.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+	"btstack/btstack_event.h"
+	"gatt_common/le_gatt_common.h"
+	"gSensor/fmy/gsensor_api.h"
+	"ble_fmy.h"
+	"ble_fmy_profile.h"
+	"system/malloc.h"
+	"ble_fmy_cfg.h"
+	"ble_fmy_ota.h"
+	"ble_fmy_fmna.h"
+
+1769531055 c:\sdk\apps\spp_and_le\examples\findmy\ble_fmy_profile.h
+	<stdint.h>
+	"app_config.h"
+
+1769531055 c:\sdk\apps\spp_and_le\examples\findmy\ble_fmy_cfg.h
+	<stdint.h>
+	"app_config.h"
+	"gatt_common/le_gatt_common.h"
+
+1769531055 c:\sdk\apps\spp_and_le\examples\findmy\ble_fmy_ota.h
+	"typedef.h"
+	"third_party/fmna/fmna_api.h"
+
+1769531055 c:\sdk\apps\spp_and_le\examples\findmy\ble_fmy_fmna.h
+	<stdint.h>
+	"app_config.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\findmy\ble_fmy_fmna.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+	"btstack/btstack_event.h"
+	"gatt_common/le_gatt_common.h"
+	"gSensor/fmy/gsensor_api.h"
+	"ble_fmy.h"
+	"ble_fmy_profile.h"
+	"system/malloc.h"
+	"ble_fmy_cfg.h"
+	"ble_fmy_ota.h"
+	"ble_fmy_sensor_uart.h"
+	"ble_fmy_fmna.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\findmy\ble_fmy_ota.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+	"btstack/btstack_event.h"
+	"gatt_common/le_gatt_common.h"
+	"ble_fmy.h"
+	"ble_fmy_ota.h"
+	"system/malloc.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\findmy\ble_fmy_sensor_uart.c
+	"system/includes.h"
+	"app_config.h"
+	"gSensor/fmy/gsensor_api.h"
+	"ble_fmy_sensor_uart.h"
+	"debug.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\ftms\app_ftms.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"rcsp_user_update.h"
+	"app_charge.h"
+	"app_chargestore.h"
+	"app_power_manage.h"
+	"app_comm_bt.h"
+	"usb/device/cdc.h"
+	"debug.h"
+	"tone_player.h"
+	"media/includes.h"
+	"key_event_deal.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\ftms\ble_ftms.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+	"btstack/btstack_event.h"
+	"gatt_common/le_gatt_common.h"
+	"ble_ftms_profile.h"
+
+1769531055 c:\sdk\apps\spp_and_le\examples\ftms\ble_ftms_profile.h
+	<stdint.h>
+	"app_config.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\hilink\app_hilink.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"rcsp_user_update.h"
+	"app_charge.h"
+	"app_chargestore.h"
+	"app_power_manage.h"
+	"app_comm_bt.h"
+	"app_config.h"
+	"debug.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\hilink\hilink_demo.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+	"btstack/btstack_event.h"
+	"gatt_common/le_gatt_common.h"
+	"hilink_demo.h"
+	"hilink_profile.h"
+	"hilink_protocol.h"
+	"hilink_task.h"
+
+1769531055 c:\sdk\apps\spp_and_le\examples\hilink\hilink_demo.h
+	<stdint.h>
+	"app_config.h"
+
+1769531055 c:\sdk\apps\spp_and_le\examples\hilink\hilink_profile.h
+	<stdint.h>
+	"app_config.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\idle\app_idle.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"debug.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\ll_sync\app_ll_sync.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"rcsp_user_update.h"
+	"app_charge.h"
+	"app_chargestore.h"
+	"app_power_manage.h"
+	"app_comm_bt.h"
+	"debug.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\ll_sync\ll_sync_demo.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+	"btstack/btstack_event.h"
+	"gatt_common/le_gatt_common.h"
+	"ll_sync_profile.h"
+	"ble_qiot_export.h"
+	"ble_qiot_service.h"
+	"ll_task.h"
+
+1769531055 c:\sdk\apps\spp_and_le\examples\ll_sync\ll_sync_profile.h
+	<stdint.h>
+	"app_config.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\multi_conn\app_multi_conn.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"rcsp_user_update.h"
+	"app_charge.h"
+	"app_chargestore.h"
+	"app_power_manage.h"
+	"le_client_demo.h"
+	"app_comm_bt.h"
+	"debug.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\examples\multi_conn\ble_multi.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+	"btstack/btstack_event.h"
+	"gatt_common/le_gatt_common.h"
+	"ble_multi.h"
+
+1769531055 c:\sdk\apps\spp_and_le\examples\multi_conn\ble_multi.h
+	<stdint.h>
+	"app_config.h"
+
+1769531056 source:c:\sdk\apps\spp_and_le\examples\multi_conn\ble_multi_central.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+	"btstack/btstack_event.h"
+	"ble_multi.h"
+	"le_client_demo.h"
+	"gatt_common/le_gatt_common.h"
+
+1769531056 source:c:\sdk\apps\spp_and_le\examples\multi_conn\ble_multi_peripheral.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+	"btstack/btstack_event.h"
+	"gatt_common/le_gatt_common.h"
+	"ble_multi.h"
+	"ble_multi_profile.h"
+
+1769531056 c:\sdk\apps\spp_and_le\examples\multi_conn\ble_multi_profile.h
+	<stdint.h>
+	"app_config.h"
+
+1769531056 source:c:\sdk\apps\spp_and_le\examples\nonconn_24g\app_nonconn_24g.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"rcsp_user_update.h"
+	"app_charge.h"
+	"app_chargestore.h"
+	"app_power_manage.h"
+	"app_comm_bt.h"
+	"debug.h"
+
+1769531056 source:c:\sdk\apps\spp_and_le\examples\nonconn_24g\ble_24g_deal.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"le_common.h"
+	"custom_cfg.h"
+	"le_gatt_common.h"
+
+1769531056 source:c:\sdk\apps\spp_and_le\examples\trans_data\app_spp_and_le.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"rcsp_user_update.h"
+	"app_charge.h"
+	"app_chargestore.h"
+	"app_power_manage.h"
+	"app_comm_bt.h"
+	"usb/device/cdc.h"
+	"debug.h"
+	"tone_player.h"
+	"media/includes.h"
+	"key_event_deal.h"
+
+1769531056 source:c:\sdk\apps\spp_and_le\examples\trans_data\ble_trans.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+	"btstack/btstack_event.h"
+	"gatt_common/le_gatt_common.h"
+	"ble_trans.h"
+	"ble_trans_profile.h"
+
+1769531056 c:\sdk\apps\spp_and_le\examples\trans_data\ble_trans.h
+	<stdint.h>
+	"app_config.h"
+	"gatt_common/le_gatt_common.h"
+
+1769531056 c:\sdk\apps\spp_and_le\examples\trans_data\ble_trans_profile.h
+	<stdint.h>
+	"app_config.h"
+
+1769531056 source:c:\sdk\apps\spp_and_le\examples\trans_data\ble_trans_ios_services.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"custom_cfg.h"
+	"btstack/btstack_event.h"
+	"le_client_demo.h"
+	"gatt_common/le_gatt_common.h"
+
+1769531056 source:c:\sdk\apps\spp_and_le\examples\trans_data\ble_trans_search.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"custom_cfg.h"
+	"btstack/btstack_event.h"
+	"le_client_demo.h"
+	"gatt_common/le_gatt_common.h"
+
+1769531056 source:c:\sdk\apps\spp_and_le\examples\tuya\app_tuya.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"rcsp_user_update.h"
+	"app_charge.h"
+	"app_chargestore.h"
+	"app_power_manage.h"
+	"app_comm_bt.h"
+	"debug.h"
+
+1769531056 source:c:\sdk\apps\spp_and_le\examples\tuya\tuya_demo.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"rcsp_bluetooth.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+	"btstack/btstack_event.h"
+	"gatt_common/le_gatt_common.h"
+	"tuya_demo.h"
+	"tuya_ble_api.h"
+	"tuya_profile.h"
+
+1769531056 c:\sdk\apps\spp_and_le\examples\tuya\tuya_demo.h
+	<stdint.h>
+	"app_config.h"
+	"tuya_ble_internal_config.h"
+
+1769531056 c:\sdk\apps\spp_and_le\examples\tuya\tuya_profile.h
+	<stdint.h>
+	"app_config.h"
+	"tuya_ble_internal_config.h"
+
+1769531056 source:c:\sdk\apps\spp_and_le\modules\bt\app_comm_ble.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"rcsp_user_update.h"
+	"app_charge.h"
+	"app_chargestore.h"
+	"app_power_manage.h"
+	"le_client_demo.h"
+	"app_comm_bt.h"
+	"debug.h"
+
+1769531056 source:c:\sdk\apps\spp_and_le\modules\bt\app_comm_edr.c
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"app_config.h"
+	"app_action.h"
+	"os/os_api.h"
+	"btcontroller_config.h"
+	"btctrler/btctrler_task.h"
+	"config/config_transport.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_common.h"
+	"rcsp_bluetooth.h"
+	"rcsp_user_update.h"
+	"app_charge.h"
+	"app_chargestore.h"
+	"app_power_manage.h"
+	"app_comm_bt.h"
+	"edr_emitter.h"
+	"debug.h"
+
+1769531056 c:\sdk\apps\spp_and_le\include\edr_emitter.h
+
+1769531056 source:c:\sdk\apps\spp_and_le\modules\bt\edr_emitter.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_task.h"
+	"btstack/btstack_task.h"
+	"btcontroller_modules.h"
+	"btstack/avctp_user.h"
+	"classic/hci_lmp.h"
+	"user_cfg.h"
+	"vm.h"
+	"app_main.h"
+	"key_event_deal.h"
+	"edr_emitter.h"
+	"debug.h"
+
+1769531056 source:c:\sdk\apps\spp_and_le\modules\bt\spp_trans.c
+	"app_config.h"
+	"app_action.h"
+	"system/includes.h"
+	"spp_user.h"
+	"string.h"
+	"circular_buf.h"
+	"spp_trans.h"
+	"bt_common.h"
+	"btstack/avctp_user.h"
+	"app_comm_bt.h"
+	"debug.h"
+
+1769531056 c:\sdk\apps\spp_and_le\include\spp_trans.h
+	"typedef.h"
+	"bt_common.h"
+
+1769531056 source:c:\sdk\apps\spp_and_le\modules\misc.c
+	"system/includes.h"
+	"server/server_core.h"
+
+1769531056 source:c:\sdk\apps\spp_and_le\modules\power\app_charge.c
+	"app_config.h"
+	"asm/charge.h"
+	"asm/pwm_led.h"
+	"system/event.h"
+	"system/app_core.h"
+	"system/includes.h"
+	"app_action.h"
+	"asm/wdt.h"
+	"app_main.h"
+	"app_power_manage.h"
+	"app_handshake.h"
+	"debug.h"
+
+1769531056 c:\sdk\apps\spp_and_le\include\app_handshake.h
+	"typedef.h"
+
+1769531056 source:c:\sdk\apps\spp_and_le\modules\power\app_chargestore.c
+	"init.h"
+	"app_config.h"
+	"system/includes.h"
+	"asm/chargestore.h"
+	"user_cfg.h"
+	"app_chargestore.h"
+	"app_action.h"
+	"app_main.h"
+	"debug.h"
+
+1769531056 source:c:\sdk\apps\spp_and_le\modules\power\app_handshake.c
+	"asm/includes.h"
+	"system/includes.h"
+	"app_config.h"
+	"chargebox.h"
+
+1769531056 source:c:\sdk\apps\spp_and_le\modules\power\app_power_manage.c
+	"system/includes.h"
+	"app_power_manage.h"
+	"app_main.h"
+	"app_config.h"
+	"app_action.h"
+	"asm/charge.h"
+	"asm/adc_api.h"
+	"btstack/avctp_user.h"
+	"user_cfg.h"
+	"asm/charge.h"
+	"debug.h"
+
+1769531056 source:c:\sdk\apps\spp_and_le\modules\rtc_alarm.c
+	"rtc_alarm.h"
+	"system/timer.h"
+	"app_config.h"
+	"asm/rtc.h"
+
+1769531056 c:\sdk\apps\spp_and_le\include\rtc_alarm.h
+	"typedef.h"
+	"system/includes.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\rtc.h
+	"typedef.h"
+
+1769531056 source:c:\sdk\apps\spp_and_le\modules\tone_table.c
+	"tone_player.h"
+	"system/includes.h"
+	"tone_player_api.h"
+	"app_config.h"
+
+1769531056 source:c:\sdk\apps\spp_and_le\modules\user_cfg.c
+	"app_config.h"
+	"user_cfg.h"
+	"fs.h"
+	"string.h"
+	"system/includes.h"
+	"vm.h"
+	"btcontroller_config.h"
+	"app_main.h"
+	"app_power_manage.h"
+	"bt_common.h"
+	"audio_config.h"
+	"debug.h"
+
+1769531056 source:c:\sdk\apps\spp_and_le\version.c
+	"system/includes.h"
+	"generic/log.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\board\br34\board_ac6381a_demo.c
+	"app_config.h"
+	"system/includes.h"
+	"media/includes.h"
+	"asm/sdmmc.h"
+	"asm/chargestore.h"
+	"asm/charge.h"
+	"asm/pwm_led.h"
+	"key_event_deal.h"
+	"user_cfg.h"
+	"asm/power/p33.h"
+	"asm/power_interface.h"
+	"usb/otg.h"
+	"debug.h"
+	"uart_update.h"
+
+1769531079 c:\sdk\include_lib\driver\cpu\br34\asm\sdmmc.h
+	"device/sdmmc.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\board\br34\board_ac6385a_demo.c
+	"app_config.h"
+	"system/includes.h"
+	"media/includes.h"
+	"asm/sdmmc.h"
+	"asm/chargestore.h"
+	"asm/charge.h"
+	"asm/pwm_led.h"
+	"key_event_deal.h"
+	"asm/lp_touch_key_api.h"
+	"user_cfg.h"
+	"asm/power/p33.h"
+	"asm/power_interface.h"
+	"debug.h"
+	"uart_update.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\board\br34\board_ac638n_demo.c
+	"app_config.h"
+	"system/includes.h"
+	"media/includes.h"
+	"asm/sdmmc.h"
+	"asm/chargestore.h"
+	"asm/charge.h"
+	"asm/pwm_led.h"
+	"key_event_deal.h"
+	"asm/lp_touch_key_api.h"
+	"user_cfg.h"
+	"asm/power/p33.h"
+	"asm/power_interface.h"
+	"debug.h"
+	"uart_update.h"
+
+1769531055 source:c:\sdk\apps\spp_and_le\board\br34\board_ac638n_fmy.c
+	"app_config.h"
+	"system/includes.h"
+	"media/includes.h"
+	"asm/sdmmc.h"
+	"asm/chargestore.h"
+	"asm/charge.h"
+	"asm/pwm_led.h"
+	"asm/iic_soft.h"
+	"key_event_deal.h"
+	"asm/lp_touch_key_api.h"
+	"user_cfg.h"
+	"asm/power/p33.h"
+	"asm/power_interface.h"
+	"debug.h"
+	"uart_update.h"
+
+1770725246 c:\sdk\apps\spp_and_le\examples\dongle\led.h
+	"asm/spi.h"
+	"asm/gpio.h"
+	"os/os_api.h"
+	<string.h>
+
+1770727824 source:c:\sdk\apps\spp_and_le\examples\dongle\led.c
+	"system/timer.h"
+	"led.h"
+
+1770794270 c:\sdk\apps\spp_and_le\examples\dongle\battery_charge.h
+
+1770794241 source:c:\sdk\apps\spp_and_le\examples\dongle\battery_charge.c
+	"app_charge.h"
+	"app_power_manage.h"
+	"battery_charge.h"
+	"system/includes.h"
+
